@@ -1,0 +1,990 @@
+@prefix : <https://w3id.org/def/NyOnLegalOntology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/def/NyOnLegalOntology> .
+
+<https://w3id.org/def/NyOnLegalOntology> rdf:type owl:Ontology ;
+                                          <http://purl.org/dc/elements/1.1/publisher> <http://website/> ;
+                                          <http://purl.org/dc/terms/created> "2020-04-04" ;
+                                          <http://purl.org/dc/terms/creator> "Nandana Mihindukulasooriya" ,
+                                                                             "Pooja Harde" ,
+                                                                             "Sarika Jain" ;
+                                          <http://purl.org/dc/terms/description> "An ontology that represents concepts in the legal domain."@en ,
+                                                                                 "Eine Ontologie, die Konzepte im Rechtsbereich darstellt."@de ,
+                                                                                 "Una ontología que representa conceptos en el dominio jurídico."@es ,
+                                                                                 "Une ontologie qui représente des concepts du domaine juridique."@fr ;
+                                          <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> ;
+                                          <http://purl.org/dc/terms/modified> "2020-07-16" ;
+                                          <http://purl.org/dc/terms/title> "NyOn: A Multilingual Legal Ontology for Globalized Judicial System"@en ,
+                                                                           "NyOn: Eine mehrsprachige Rechtsontologie für ein globalisiertes Justizsystem"@de ,
+                                                                           "NyOn: Una ontología jurídica multilingüe para el sistema judicial globalizado"@es ,
+                                                                           "NyOn: Une ontologie juridique multilingue pour un système judiciaire mondialisé"@fr ;
+                                          <http://purl.org/vocab/vann/preferredNamespacePrefix> "nyon" ;
+                                          <http://purl.org/vocab/vann/preferredNamespaceUri> : ;
+                                          owl:versionInfo 1.0 .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/def/NyOnLegalOntology#caseBelongsToType
+:caseBelongsToType rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain :Case ;
+                   rdfs:range :Case_Type ;
+                   rdfs:label "caseBelongsToType"@en ,
+                              "property justifies the relationship of the case with the particular domain to which it belongs"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#documentType
+:documentType rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Case ;
+              rdfs:range :Court_Judgements ;
+              rdfs:label "documentType"@en ,
+                         "property defines the type of document involved in the case"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasActs
+:hasActs rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :Case ;
+         rdfs:range :Acts ;
+         rdfs:comment "acts involved in the case"@en ;
+         rdfs:label "hasActs"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasAdvisoryJurisdiction
+:hasAdvisoryJurisdiction rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty ;
+                         rdfs:domain :Apex_Court ;
+                         rdfs:range :Advisory_Jurisdiction ;
+                         rdfs:comment "property justifies that the jurisdiction of the court is the advisory jurisdiction"@en ;
+                         rdfs:label "hasAdvisoryJurisdiction"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasAppellantJurisdiction
+:hasAppellantJurisdiction rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty ;
+                          rdfs:domain :Apex_Court ,
+                                      :High_Court ;
+                          rdfs:range :Appellant_Jurisdiction ;
+                          rdfs:comment "property justifies that the jurisdiction of the court is the appellant jurisdiction"@en ;
+                          rdfs:label "hasAppellantJurisdiction"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasAuthor
+:hasAuthor rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Case ;
+           rdfs:range :Author ;
+           rdfs:comment "case has a author who is one of the judge of the case"@en ;
+           rdfs:label "hasAuthor"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasBench
+:hasBench rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Case ;
+          rdfs:range :Bench ;
+          rdfs:comment "case has a bench of judges"@en ;
+          rdfs:label "hasBench"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasCourtDecision
+:hasCourtDecision rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Case ;
+                  rdfs:range :Court_Decision ;
+                  rdfs:comment "property justifies the type of courts decision given by the judge in the case"@en ;
+                  rdfs:label "hasCourtDecision"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasCourts
+:hasCourts rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Case ;
+           rdfs:range :Courts ;
+           rdfs:comment "property defines the different courts involved in the case"@en ;
+           rdfs:label "hasCourts"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasEvidenceLocation
+:hasEvidenceLocation rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Evidence ;
+                     rdfs:range :Place ;
+                     rdfs:comment "property represents the location of the evidence"@en ;
+                     rdfs:label "hasEvidenceLocation"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasEvidences
+:hasEvidences rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Case ;
+              rdfs:range :Evidence ;
+              rdfs:comment "proprty represnts the evidences of the case"@en ;
+              rdfs:label "hasEvidences"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasIndividual
+:hasIndividual rdf:type owl:ObjectProperty ;
+               rdfs:domain :Group ;
+               rdfs:range :Individual ;
+               rdfs:comment "represents that the group party of the case includes the individuals"@en ;
+               rdfs:label "hasIndividuals"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasLegalParticipants
+:hasLegalParticipants rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty ;
+                      rdfs:domain :Case ;
+                      rdfs:range :Legal_Participants ;
+                      rdfs:comment "property signifies the legal participants of the case"@en ;
+                      rdfs:label "hasLegalParticipants"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasLocation
+:hasLocation rdf:type owl:ObjectProperty ;
+             rdfs:domain :Courts ;
+             rdfs:range :Location ;
+             rdfs:comment "property signifies the location of the court involved in the case"@en ;
+             rdfs:label "hasLocation"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasNonLegalParticipants
+:hasNonLegalParticipants rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty ;
+                         rdfs:domain :Case ;
+                         rdfs:range :NonLegal_Participants ;
+                         rdfs:comment "property signifies the non-legal participants of the case"@en ;
+                         rdfs:label "hasNonLegalParticipants"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasOriginalJurisdiction
+:hasOriginalJurisdiction rdf:type owl:ObjectProperty ;
+                         rdfs:subPropertyOf owl:topObjectProperty ;
+                         rdfs:domain :Apex_Court ,
+                                     :High_Court ;
+                         rdfs:range :Original_Jurisdiction ;
+                         rdfs:comment "property justifies that the jurisdiction of the court is the original jurisdiction"@en ;
+                         rdfs:label "hasOriginalJurisdiction"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasParticipantType
+:hasParticipantType rdf:type owl:ObjectProperty ;
+                    rdfs:domain :NonLegal_Participants ;
+                    rdfs:range :Participants ;
+                    rdfs:comment "property signifies the type of participants or parties of the case"@en ;
+                    rdfs:label "hasParticipantType"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasPrecedentCase
+:hasPrecedentCase rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Case ;
+                  rdfs:range :Precedent_Case ;
+                  rdfs:comment "case has a relationship with the precedent cases"@en ;
+                  rdfs:label "hasPrecedentCase"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasReviewJurisdiction
+:hasReviewJurisdiction rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf owl:topObjectProperty ;
+                       rdfs:domain :Apex_Court ;
+                       rdfs:range :Review_Jurisdiction ;
+                       rdfs:comment "property justifies that the jurisdiction of the court is the review jurisdiction"@en ;
+                       rdfs:label "hasReviewJurisdiction"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasWritJurisdiction
+:hasWritJurisdiction rdf:type owl:ObjectProperty ;
+                     rdfs:comment "property justifies that the jurisdiction of the court is the writ jurisdiction"@en ;
+                     rdfs:label "hasWritJurisdiction"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#isA
+:isA rdf:type owl:ObjectProperty ;
+     rdfs:domain :Precedent_Case ;
+     rdfs:range :Case ;
+     rdfs:comment "precedent case isA case"@en ;
+     rdfs:label "isA"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/def/NyOnLegalOntology#GovernmentName
+:GovernmentName rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain :Government ;
+                rdfs:range xsd:string ;
+                rdfs:comment "Name of the Government"@en ;
+                rdfs:label "governmentName"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasCaseName
+:hasCaseName rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Case ;
+             rdfs:range xsd:string ;
+             rdfs:comment "name of the case"@en ;
+             rdfs:label "hasCaseName"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasCaseNumber
+:hasCaseNumber rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Case ;
+               rdfs:comment "case number"@en ;
+               rdfs:label "hasCaseNumber"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasCourtDecisionDate
+:hasCourtDecisionDate rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdfs:domain :Court_Decision ;
+                      rdfs:range xsd:dateTime ;
+                      rdfs:comment "date on which the court decision is given"@en ;
+                      rdfs:label "hasCourtDecisionDate"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasJudgement
+:hasJudgement rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain :Judgement ;
+              rdfs:range xsd:string ;
+              rdfs:comment "judgement given on the case"@en ;
+              rdfs:label "hasJudgement"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#hasOrder
+:hasOrder rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :Order ;
+          rdfs:range xsd:string ;
+          rdfs:comment "order given in the case as the court decision"@en ;
+          rdfs:label "hasOrder"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#individualName
+:individualName rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain :Individual ;
+                rdfs:range xsd:string ;
+                rdfs:comment "name of the individual or the party"@en ;
+                rdfs:label "individualName"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#locatedAt
+:locatedAt rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Courts ;
+           rdfs:range xsd:string ;
+           rdfs:comment "location of the courts"@en ;
+           rdfs:label "locatedAt"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#organizationName
+:organizationName rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :Organization ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "name of the organization"@en ;
+                  rdfs:label "organizationName"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#stateName
+:stateName rdf:type owl:DatatypeProperty ;
+           rdfs:domain :State ;
+           rdfs:range xsd:string ;
+           rdfs:comment "name of the State"@en ;
+           rdfs:label "stateName"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/def/NyOnLegalOntology#Accussed
+:Accussed rdf:type owl:Class ;
+          rdfs:subClassOf :NonLegal_Participants ;
+          rdfs:comment "represents the accused of the case"@en ;
+          rdfs:label "Accused"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Acts
+:Acts rdf:type owl:Class ;
+      rdfs:comment "Acts or Rules common for Civil and Crimnial Law"@en ;
+      rdfs:label "Acts"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction
+:Advisory_Jurisdiction rdf:type owl:Class ;
+                       rdfs:subClassOf :Jurisdiction ;
+                       rdfs:comment "jurisdiction type is a advisory jurisdiction"@en ;
+                       rdfs:label "Advisory Jurisdiction"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Apex_Court
+:Apex_Court rdf:type owl:Class ;
+            rdfs:subClassOf :Courts ;
+            rdfs:label "Apex Court"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Appeal
+:Appeal rdf:type owl:Class ;
+        rdfs:subClassOf :Documents ;
+        rdfs:comment "document is an appeal document"@en ;
+        rdfs:label "Appeal"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Appellant
+:Appellant rdf:type owl:Class ;
+           rdfs:subClassOf :NonLegal_Participants ;
+           rdfs:comment "represents the appellant of the case"@en ;
+           rdfs:label "Appellant"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction
+:Appellant_Jurisdiction rdf:type owl:Class ;
+                        rdfs:subClassOf :Jurisdiction ;
+                        rdfs:comment "jurisdiction type is a appellant jurisdiction"@en ;
+                        rdfs:label "Appellant Jurisdiction"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Author
+:Author rdf:type owl:Class ;
+        rdfs:comment "Author (Judge) who is responsible for a creation of case document"@en ;
+        rdfs:label "Author"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Bench
+:Bench rdf:type owl:Class ;
+       rdfs:comment "Defines the bench of the case."@en ;
+       rdfs:label "Bench"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Case
+:Case rdf:type owl:Class ;
+      rdfs:comment "a legal court case or court decision or case document"@en ;
+      rdfs:label "Case"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Case_Type
+:Case_Type rdf:type owl:Class ;
+           rdfs:comment "defines the category of the case to which it belongs (Criminal or Civil according to Indian Judicial System)"@en ;
+           rdfs:label "Case Type"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court
+:Chief_Meterpolitan_Court rdf:type owl:Class ;
+                          rdfs:subClassOf :Courts_for_Criminal ;
+                          rdfs:comment "lower court at metropolitan level after Sessions Court for criminal cases"@en ;
+                          rdfs:label "Chief Meterpolitan Court"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts
+:City_Civil_Courts rdf:type owl:Class ;
+                   rdfs:subClassOf :Courts_for_Civil ;
+                   rdfs:comment "lower court at metropolitan level after High Courts for civil cases"@en ;
+                   rdfs:label "City Civil Courts"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Civil
+:Civil rdf:type owl:Class ;
+       rdfs:subClassOf :Case_Type ;
+       owl:disjointWith :Criminal ;
+       rdfs:comment "case is a civil case"@en ;
+       rdfs:label "Civil"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Country
+:Country rdf:type owl:Class ;
+         rdfs:subClassOf :Location ;
+         rdfs:comment "represents the country name"@en ;
+         rdfs:label "Country"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Court_Decision
+:Court_Decision rdf:type owl:Class ;
+                rdfs:label "Court Decision"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Court_Judgements
+:Court_Judgements rdf:type owl:Class ;
+                  rdfs:subClassOf :Documents ;
+                  rdfs:comment "document is a court judgement"@en ;
+                  rdfs:label "Court Judgements"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Courts
+:Courts rdf:type owl:Class ;
+        rdfs:label "Courts"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil
+:Courts_for_Civil rdf:type owl:Class ;
+                  rdfs:subClassOf :Case_Type ;
+                  rdfs:comment "courts for civil cases"@en ;
+                  rdfs:label "Civil Courts"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal
+:Courts_for_Criminal rdf:type owl:Class ;
+                     rdfs:subClassOf :Case_Type ;
+                     rdfs:label "Criminal Courts"@en ,
+                                "courts for crimnial cases"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes
+:Courts_of_Smaller_Causes rdf:type owl:Class ;
+                          rdfs:subClassOf :Courts_for_Civil ;
+                          rdfs:comment "lowest court after City Civil Courts at metropolitan level for civil cases"@en ;
+                          rdfs:label "Courts of Smaller Causes"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Criminal
+:Criminal rdf:type owl:Class ;
+          rdfs:subClassOf :Case_Type ;
+          rdfs:comment "case is a criminal case"@en ;
+          rdfs:label "Criminal"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#District
+:District rdf:type owl:Class ;
+          rdfs:subClassOf :Location ;
+          rdfs:comment "represents district name/location"@en ;
+          rdfs:label "District"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#District_Court
+:District_Court rdf:type owl:Class ;
+                rdfs:subClassOf :Courts_for_Civil ;
+                rdfs:comment "lower court at district level after High Courts for civil cases"@en ;
+                rdfs:label "District Court"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#District_Courts
+:District_Courts rdf:type owl:Class ;
+                 rdfs:subClassOf :Courts ;
+                 rdfs:label "District Courts"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Division_Bench
+:Division_Bench rdf:type owl:Class ;
+                rdfs:subClassOf :Bench ;
+                rdfs:comment "a term in judicial system in India in which a case is heard and judged by at least 2 judges"@en ;
+                rdfs:label "Division Bench"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Documents
+:Documents rdf:type owl:Class ;
+           rdfs:comment "various documents used in legal domain"@en ;
+           rdfs:label "Documents"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Evidence
+:Evidence rdf:type owl:Class ;
+          rdfs:comment "evidences presented in front of the court in the case"@en ;
+          rdfs:label "Evidence"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#FIR
+:FIR rdf:type owl:Class ;
+     rdfs:subClassOf :Documents ;
+     rdfs:comment "document is a FIR"@en ;
+     rdfs:label "FIR"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Government
+:Government rdf:type owl:Class ;
+            rdfs:subClassOf :Participants ;
+            rdfs:comment "participants involved (either on both sides or any one) is the government in the case"@en ;
+            rdfs:label "Government"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Group
+:Group rdf:type owl:Class ;
+       rdfs:subClassOf :Participants ;
+       rdfs:comment "participants of the case are the group of people on one side against another group of people or individual or state"@en ;
+       rdfs:label "Group"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#High_Court
+:High_Court rdf:type owl:Class ;
+            rdfs:subClassOf :Courts ;
+            rdfs:label "High Court"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Individual
+:Individual rdf:type owl:Class ;
+            rdfs:subClassOf :Participants ;
+            rdfs:comment "participants of the case are the individual persons"@en ;
+            rdfs:label "Individual"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Investigator
+:Investigator rdf:type owl:Class ;
+              rdfs:subClassOf :Legal_Participants ;
+              rdfs:comment "represents investigator who files the FIR or investigates a case"@en ;
+              rdfs:label "Investigator"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Judge
+:Judge rdf:type owl:Class ;
+       rdfs:subClassOf :Legal_Participants ;
+       rdfs:comment "represents the judge of the case"@en ;
+       rdfs:label "Judge"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Judgement
+:Judgement rdf:type owl:Class ;
+           rdfs:subClassOf :Court_Decision ;
+           owl:disjointWith :Order ;
+           rdfs:label "Judgement"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Jurisdiction
+:Jurisdiction rdf:type owl:Class ;
+              rdfs:comment "the extent to which a court of law can exercise its authority over any cases filed across a region"@en ;
+              rdfs:label "Jurisdiction"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Larger_Bench
+:Larger_Bench rdf:type owl:Class ;
+              rdfs:subClassOf :Bench ;
+              rdfs:comment "a term in judicial system in India in which a case is heard and judged by three or five judges"@en ;
+              rdfs:label "Larger Bench"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Legal_Participants
+:Legal_Participants rdf:type owl:Class ;
+                    rdfs:comment "legal participants involved in a case"@en ;
+                    rdfs:label "Legal Participants"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Location
+:Location rdf:type owl:Class ;
+          rdfs:comment "represents the location of the courts, etc and also used for evidence locations"@en ;
+          rdfs:label "Location"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts
+:Metropolitan_Magistrate_Courts rdf:type owl:Class ;
+                                rdfs:subClassOf :Courts_for_Criminal ;
+                                rdfs:comment "lowest court after Chief Metropolitan Court at metropolitan level for criminal cases"@en ;
+                                rdfs:label "Metropolitan Magistrate Courts"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Metropolitian_Courts
+:Metropolitian_Courts rdf:type owl:Class ;
+                      rdfs:subClassOf :Courts ;
+                      rdfs:label "Metropolitan Court"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Munsif_Court
+:Munsif_Court rdf:type owl:Class ;
+              rdfs:subClassOf :Courts_for_Civil ;
+              rdfs:comment "lowest court in heirarchy for civil ases at district level after Principal Junior Civil Court"@en ;
+              rdfs:label "Munsif Court"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants
+:NonLegal_Participants rdf:type owl:Class ;
+                       rdfs:comment "participants who does not belong to the legal domain or partities involved in the case"@en ;
+                       rdfs:label "Non-Legal Participants"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Order
+:Order rdf:type owl:Class ;
+       rdfs:subClassOf :Court_Decision ;
+       rdfs:label "Order"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Organization
+:Organization rdf:type owl:Class ;
+              rdfs:subClassOf :Participants ;
+              rdfs:comment "organization(s) involved as the participant in the case"@en ;
+              rdfs:label "Organization"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction
+:Original_Jurisdiction rdf:type owl:Class ;
+                       rdfs:subClassOf :Jurisdiction ;
+                       rdfs:comment "jurisdiction type is a original jurisdiction"@en ;
+                       rdfs:label "Original Jurisdiction"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Others
+:Others rdf:type owl:Class ;
+        rdfs:subClassOf :Documents ;
+        rdfs:comment "Other documents"@en ;
+        rdfs:label "Others"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Participants
+:Participants rdf:type owl:Class ;
+              rdfs:comment "represents the types of participants involved in the case as oppositions in the case"@en ;
+              rdfs:label "Participants"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Petition
+:Petition rdf:type owl:Class ;
+          rdfs:subClassOf :Documents ;
+          rdfs:comment "document is a petition document"@en ;
+          rdfs:label "Petition"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Petitioner
+:Petitioner rdf:type owl:Class ;
+            rdfs:subClassOf :NonLegal_Participants ;
+            rdfs:comment "represnts the petitioner of the case"@en ;
+            rdfs:label "Petitioner"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Place
+:Place rdf:type owl:Class ;
+       rdfs:subClassOf :Location ;
+       rdfs:comment "location name or place name"@en ;
+       rdfs:label "Place"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Plaintiff
+:Plaintiff rdf:type owl:Class ;
+           rdfs:subClassOf :NonLegal_Participants ;
+           rdfs:comment "represnts the plaintiff of the case"@en ;
+           rdfs:label "Plaintiff"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Precedent_Case
+:Precedent_Case rdf:type owl:Class ;
+                rdfs:comment "refers to the precedent cases of the cases"@en ;
+                rdfs:label "Precedent Case"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court
+:Principal_Junior_Civil_Court rdf:type owl:Class ;
+                              rdfs:subClassOf :Courts_for_Civil ;
+                              rdfs:comment "third lower court in hierarchy at district level for civil cases"@en ;
+                              rdfs:label "Principal Junior Civil Court"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Respondent
+:Respondent rdf:type owl:Class ;
+            rdfs:subClassOf :NonLegal_Participants ;
+            rdfs:comment "represents the respondent of the case"@en ;
+            rdfs:label "Respondent"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction
+:Review_Jurisdiction rdf:type owl:Class ;
+                     rdfs:subClassOf :Jurisdiction ;
+                     rdfs:comment "jurisdiction type is a review jurisdiction"@en ;
+                     rdfs:label "Review Jurisdiction"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Session_Court
+:Session_Court rdf:type owl:Class ;
+               rdfs:subClassOf :Courts_for_Criminal ;
+               rdfs:comment "lower court at both distrcit and metropolitan level after High Courts specific for criminal cases"@en ;
+               rdfs:label "Sessions Court"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Single_Judge
+:Single_Judge rdf:type owl:Class ;
+              rdfs:subClassOf :Bench ;
+              rdfs:comment "a case heard and judged by a single judge"@en ;
+              rdfs:label "Single Judge"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Solicitor
+:Solicitor rdf:type owl:Class ;
+           rdfs:subClassOf :Legal_Participants ;
+           rdfs:comment "represents solicitor, learned counsel or laywer of the case"@en ;
+           rdfs:label "Solicitor"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Special_Bench
+:Special_Bench rdf:type owl:Class ;
+               rdfs:subClassOf :Bench ;
+               rdfs:comment "means the Bench constituted by or under the orders of the Chief Justice to hear a case or particular class of cases"@en ;
+               rdfs:label "Special Bench"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#State
+:State rdf:type owl:Class ;
+       rdfs:subClassOf :Location ,
+                       :Participants ;
+       rdfs:comment "represents state name/location"@en ;
+       rdfs:label "State"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Sub_Court
+:Sub_Court rdf:type owl:Class ;
+           rdfs:subClassOf :Courts_for_Civil ;
+           rdfs:comment "second lower court in hierarchy at District level for civil cases"@en ;
+           rdfs:label "Sub Court"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Taluka
+:Taluka rdf:type owl:Class ;
+        rdfs:subClassOf :Location ;
+        rdfs:comment "represents taluka name/location"@en ;
+        rdfs:label "Taluka"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Tribunal_Bench
+:Tribunal_Bench rdf:type owl:Class ;
+                rdfs:subClassOf :Bench ;
+                rdfs:comment "Bench deals with tribunals cases"@en ;
+                rdfs:label "Tribunal Bench"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Tribunals
+:Tribunals rdf:type owl:Class ;
+           rdfs:subClassOf :Courts ;
+           rdfs:comment "institutions established for discharging judicial or quasi-judicial duties under the Government of India"@en ;
+           rdfs:label "Tribunals"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Witness
+:Witness rdf:type owl:Class ;
+         rdfs:subClassOf :NonLegal_Participants ;
+         rdfs:comment "witness involved/presented in the case"@en ;
+         rdfs:label "Witness"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Writ_Jurisdiction
+:Writ_Jurisdiction rdf:type owl:Class ;
+                   rdfs:subClassOf :Jurisdiction ;
+                   rdfs:comment "jurisdiction type is a writ jurisdiction"@en ;
+                   rdfs:label "Writ Jurisdiction"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)
+<https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf :Courts_for_Criminal ;
+                                                                                rdfs:comment "second lower court at distrcit level after districit level Session Court for criminal cases"@en ;
+                                                                                rdfs:label "Judicial Magistrate Court (First Class)"@en .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)
+<https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)> rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf :Courts_for_Criminal ;
+                                                                                 rdfs:comment "lowest court after Judicial Magistrate Court (First Class) at distrcit level for criminal cases"@en ;
+                                                                                 rdfs:label "Judicial Magistrate Court (Second Class)"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/def/NyOnLegalOntology#Attempt_to_Commit_Murder
+:Attempt_to_Commit_Murder rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Attempt_to_commit_Culpable_Homicide
+:Attempt_to_commit_Culpable_Homicide rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Causing_death_by_negligence
+:Causing_death_by_negligence rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Culpable_homicide_not_amounting_to_murder
+:Culpable_homicide_not_amounting_to_murder rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Grievous_hurt
+:Grievous_hurt rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Human_trafficking
+:Human_trafficking rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Murder
+:Murder rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Causing_injuries_due_to_rash_driving/rode_rage
+<https://w3id.org/def/NyOnLegalOntology#Causing_injuries_due_to_rash_driving/rode_rage> rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/def/NyOnLegalOntology#Kidnapping_&_Abduction
+<https://w3id.org/def/NyOnLegalOntology#Kidnapping_&_Abduction> rdf:type owl:NamedIndividual .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Accussed
+                :Appellant
+                :Petitioner
+                :Plaintiff
+                :Respondent
+                :Witness
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Acts
+                :Author
+                :Bench
+                :Case
+                :Case_Type
+                :Court_Decision
+                :Courts
+                :Documents
+                :Evidence
+                :Jurisdiction
+                :Legal_Participants
+                :Location
+                :NonLegal_Participants
+                :Participants
+                :Precedent_Case
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Advisory_Jurisdiction
+                :Appellant_Jurisdiction
+                :Original_Jurisdiction
+                :Review_Jurisdiction
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Appeal
+                :Court_Judgements
+                :FIR
+                :Others
+                :Petition
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Chief_Meterpolitan_Court
+                :Metropolitan_Magistrate_Courts
+                :Session_Court
+                <https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)>
+                <https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :City_Civil_Courts
+                :Courts_of_Smaller_Causes
+                :District_Court
+                :Munsif_Court
+                :Principal_Junior_Civil_Court
+                :Sub_Court
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Country
+                :District
+                :Place
+                :State
+                :Taluka
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Government
+                :Group
+                :Individual
+                :Organization
+                :State
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Investigator
+                :Judge
+                :Solicitor
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointProperties ;
+  owl:members ( :caseBelongsToType
+                :documentType
+                :hasActs
+                :hasAdvisoryJurisdiction
+                :hasAppellantJurisdiction
+                :hasAuthor
+                :hasBench
+                :hasCourtDecision
+                :hasCourts
+                :hasEvidenceLocation
+                :hasEvidences
+                :hasIndividual
+                :hasLegalParticipants
+                :hasLocation
+                :hasNonLegalParticipants
+                :hasOriginalJurisdiction
+                :hasParticipantType
+                :hasPrecedentCase
+                :hasReviewJurisdiction
+                :isA
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
