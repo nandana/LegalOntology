@@ -35,7 +35,7 @@
         <dcterms:title xml:lang="fr">NyOn: Une ontologie juridique multilingue pour un système judiciaire mondialisé</dcterms:title>
         <dcterms:title xml:lang="de">NyOn: Eine mehrsprachige Rechtsontologie für ein globalisiertes Justizsystem</dcterms:title>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
-        <dc:publisher rdf:resource="http://website/"/>
+        <dc:publisher rdf:resource="https://www.semintelligence.org/projects"/>
     </owl:Ontology>    
 
 
