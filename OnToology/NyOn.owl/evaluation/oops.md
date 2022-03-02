@@ -19,13 +19,13 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
 
 
-#### P13. Inverse relationships not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (21 cases detected).
-*This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.*
+#### P03. Creating the relationship &quot;is&quot; instead of using &quot;rdfs:subClassOf&quot;, &quot;rdf:type&quot; or &quot;owl:sameAs&quot; <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/critical.png" height="15px"> (1 cases detected).
+*The relationship &quot;is&quot; is created in the ontology instead of using OWL primitives for representing the subclass relationship (rdfs:subClassOf), class membership (rdf:type), or the equality between instances (owl:sameAs). When concerning a class hierarchy, this pitfall is related to the guidelines for understanding the &quot;is-a&quot; relation provided in [2].*
 
     
 
-#### P03. Creating the relationship &quot;is&quot; instead of using &quot;rdfs:subClassOf&quot;, &quot;rdf:type&quot; or &quot;owl:sameAs&quot; <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/critical.png" height="15px"> (1 cases detected).
-*The relationship &quot;is&quot; is created in the ontology instead of using OWL primitives for representing the subclass relationship (rdfs:subClassOf), class membership (rdf:type), or the equality between instances (owl:sameAs). When concerning a class hierarchy, this pitfall is related to the guidelines for understanding the &quot;is-a&quot; relation provided in [2].*
+#### P19. Defining multiple domains or ranges in properties <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/critical.png" height="15px"> (2 cases detected).
+*The domain or range (or both) of a property (relationships and attributes) is defined by stating more than one rdfs:domain or rdfs:range statements. In OWL multiple rdfs:domain or rdfs:range axioms are allowed, but they are interpreted as conjunction, being, therefore, equivalent to the construct owl:intersectionOf. This pitfall is related to the common error that appears when defining domains and ranges described in [7].*
 
     
 
@@ -34,18 +34,18 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
     
 
-#### P11. Missing domain or range in properties <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/important.png" height="15px"> (2 cases detected).
-*Object and/or datatype properties without domain or range (or none of them) are included in the ontology.*
-
-    
-
 #### P04. Creating unconnected ontology elements <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (2 cases detected).
 *Ontology elements (classes, object properties and datatype properties) are created isolated, with no relation to the rest of the ontology.*
 
     
 
-#### P19. Defining multiple domains or ranges in properties <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/critical.png" height="15px"> (2 cases detected).
-*The domain or range (or both) of a property (relationships and attributes) is defined by stating more than one rdfs:domain or rdfs:range statements. In OWL multiple rdfs:domain or rdfs:range axioms are allowed, but they are interpreted as conjunction, being, therefore, equivalent to the construct owl:intersectionOf. This pitfall is related to the common error that appears when defining domains and ranges described in [7].*
+#### P11. Missing domain or range in properties <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/important.png" height="15px"> (2 cases detected).
+*Object and/or datatype properties without domain or range (or none of them) are included in the ontology.*
+
+    
+
+#### P13. Inverse relationships not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (21 cases detected).
+*This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.*
 
     
 
