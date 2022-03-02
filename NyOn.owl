@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://w3id.org/def/NyOnLegalOntology#"
-     xml:base="https://w3id.org/def/NyOnLegalOntology"
+     xml:base="https://w3id.org/def/NyOnLegalOntology#"
+     xmlns:nyon="https://w3id.org/def/NyOnLegalOntology#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
-     xmlns:vd="https://w3id.org/def/ViralDiseasesAndDrugs#"
      xmlns:bot="https://w3id.org/bot#"
      xmlns:dbr="http://dbpedia.org/resource/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -17,10 +17,10 @@
      xmlns:dcterms="http://purl.org/dc/terms/">
 
 
-    <owl:Ontology rdf:about="https://w3id.org/def/NyOnLegalOntology">
-        <dcterms:creator>Sarika Jain</dcterms:creator>
-        <dcterms:creator>Pooja Harde</dcterms:creator>
-        <dcterms:creator>Nandana Mihindukulasooriya</dcterms:creator>
+    <owl:Ontology rdf:about="https://w3id.org/def/NyOnLegalOntology#">
+        <dcterms:creator>Jain, Sarika</dcterms:creator>
+        <dcterms:creator>Harde, Pooja</dcterms:creator>
+        <dcterms:creator>Mihindukulasooriya, Nandana</dcterms:creator>
         <vann:preferredNamespaceUri rdf:resource="https://w3id.org/def/NyOnLegalOntology#"/>
         <vann:preferredNamespacePrefix>nyon</vann:preferredNamespacePrefix>
         <dcterms:created>2020-04-04</dcterms:created>
