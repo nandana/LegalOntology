@@ -123,13 +123,13 @@
     "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "97",
-    "type" : "owl:Class"
-  }, {
-    "id" : "98",
+    "id" : "99",
     "type" : "owl:Class"
   }, {
     "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
     "type" : "owl:Class"
   }, {
     "id" : "125",
@@ -150,13 +150,13 @@
     "id" : "140",
     "type" : "owl:Class"
   }, {
-    "id" : "116",
-    "type" : "owl:Class"
-  }, {
-    "id" : "9",
+    "id" : "117",
     "type" : "owl:Class"
   }, {
     "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
     "type" : "owl:Class"
   }, {
     "id" : "144",
@@ -171,13 +171,13 @@
     "id" : "151",
     "type" : "owl:Class"
   }, {
-    "id" : "1",
-    "type" : "owl:Class"
-  }, {
     "id" : "37",
     "type" : "owl:Class"
   }, {
-    "id" : "83",
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
     "type" : "owl:Class"
   }, {
     "id" : "14",
@@ -186,10 +186,10 @@
     "id" : "153",
     "type" : "owl:Class"
   }, {
-    "id" : "86",
+    "id" : "88",
     "type" : "owl:Class"
   }, {
-    "id" : "108",
+    "id" : "109",
     "type" : "owl:Class"
   }, {
     "id" : "209",
@@ -198,7 +198,7 @@
     "id" : "30",
     "type" : "owl:Class"
   }, {
-    "id" : "124",
+    "id" : "78",
     "type" : "owl:Class"
   }, {
     "id" : "5",
@@ -219,7 +219,7 @@
     "id" : "229",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "40",
+    "id" : "42",
     "type" : "owl:Thing"
   }, {
     "id" : "146",
@@ -240,28 +240,28 @@
     "id" : "157",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "75",
+    "id" : "124",
     "type" : "owl:Class"
   }, {
     "id" : "252",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "55",
+    "id" : "41",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "170",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "114",
+    "id" : "115",
     "type" : "owl:Class"
   }, {
     "id" : "218",
     "type" : "owl:Class"
   }, {
-    "id" : "110",
+    "id" : "111",
     "type" : "owl:Class"
   }, {
-    "id" : "118",
+    "id" : "119",
     "type" : "owl:Class"
   }, {
     "id" : "200",
@@ -276,7 +276,7 @@
     "id" : "26",
     "type" : "owl:Class"
   }, {
-    "id" : "89",
+    "id" : "91",
     "type" : "owl:Class"
   }, {
     "id" : "129",
@@ -285,7 +285,7 @@
     "id" : "64",
     "type" : "owl:Class"
   }, {
-    "id" : "122",
+    "id" : "75",
     "type" : "owl:Class"
   }, {
     "id" : "195",
@@ -306,16 +306,16 @@
     "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "120",
+    "id" : "121",
     "type" : "owl:Class"
   }, {
     "id" : "126",
     "type" : "owl:Class"
   }, {
-    "id" : "112",
+    "id" : "113",
     "type" : "owl:Class"
   }, {
-    "id" : "82",
+    "id" : "84",
     "type" : "owl:Class"
   }, {
     "id" : "11",
@@ -324,7 +324,7 @@
     "id" : "63",
     "type" : "owl:Class"
   }, {
-    "id" : "103",
+    "id" : "81",
     "type" : "owl:Class"
   }, {
     "id" : "69",
@@ -336,7 +336,7 @@
     "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "92",
+    "id" : "94",
     "type" : "owl:Class"
   }, {
     "id" : "35",
@@ -345,7 +345,7 @@
     "id" : "73",
     "type" : "owl:Class"
   }, {
-    "id" : "95",
+    "id" : "97",
     "type" : "owl:Class"
   }, {
     "id" : "66",
@@ -450,7 +450,7 @@
       "IRI-based" : "Metropolitian_Courts",
       "en" : "Metropolitan Court"
     },
-    "id" : "97",
+    "id" : "99",
     "superClasses" : [ "33" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction",
@@ -463,7 +463,7 @@
     "comment" : {
       "en" : "jurisdiction type is a original jurisdiction"
     },
-    "id" : "98",
+    "id" : "100",
     "superClasses" : [ "35" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes",
@@ -476,7 +476,7 @@
     "comment" : {
       "en" : "lowest court after City Civil Courts at metropolitan level for civil cases"
     },
-    "id" : "100",
+    "id" : "102",
     "superClasses" : [ "15" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Acts",
@@ -496,7 +496,7 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "Courts_for_Criminal",
-      "en" : "Criminal Courts"
+      "en" : "courts for crimnial cases"
     },
     "subClasses" : [ "38", "126", "127", "128", "129" ],
     "id" : "39",
@@ -522,7 +522,7 @@
       "IRI-based" : "Court_Decision",
       "en" : "Court Decision"
     },
-    "subClasses" : [ "108", "110" ],
+    "subClasses" : [ "109", "111" ],
     "id" : "59"
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Taluka",
@@ -561,21 +561,8 @@
     "comment" : {
       "en" : "participants of the case are the group of people on one side against another group of people or individual or state"
     },
-    "id" : "116",
+    "id" : "117",
     "superClasses" : [ "2" ]
-  }, {
-    "iri" : "https://w3id.org/def/NyOnLegalOntology#Petition",
-    "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Petition",
-      "en" : "Petition"
-    },
-    "comment" : {
-      "en" : "document is a petition document"
-    },
-    "id" : "9",
-    "superClasses" : [ "5" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Place",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
@@ -589,6 +576,19 @@
     },
     "id" : "143",
     "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://w3id.org/def/NyOnLegalOntology#Petition",
+    "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Petition",
+      "en" : "Petition"
+    },
+    "comment" : {
+      "en" : "document is a petition document"
+    },
+    "id" : "9",
+    "superClasses" : [ "5" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Apex_Court",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
@@ -607,7 +607,7 @@
       "IRI-based" : "Participants",
       "en" : "Participants"
     },
-    "subClasses" : [ "112", "114", "116", "118", "120" ],
+    "subClasses" : [ "113", "115", "117", "119", "121" ],
     "comment" : {
       "en" : "represents the types of participants involved in the case as oppositions in the case"
     },
@@ -639,19 +639,6 @@
     "id" : "151",
     "superClasses" : [ "35" ]
   }, {
-    "iri" : "https://w3id.org/def/NyOnLegalOntology#Legal_Participants",
-    "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Legal_Participants",
-      "en" : "Legal Participants"
-    },
-    "subClasses" : [ "122", "124", "103" ],
-    "comment" : {
-      "en" : "legal participants involved in a case"
-    },
-    "id" : "1"
-  }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Case_Type",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
     "instances" : 0,
@@ -659,11 +646,24 @@
       "IRI-based" : "Case_Type",
       "en" : "Case Type"
     },
-    "subClasses" : [ "39", "75", "60", "15" ],
+    "subClasses" : [ "39", "124", "60", "15" ],
     "comment" : {
       "en" : "defines the category of the case to which it belongs (Criminal or Civil according to Indian Judicial System)"
     },
     "id" : "37"
+  }, {
+    "iri" : "https://w3id.org/def/NyOnLegalOntology#Legal_Participants",
+    "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Legal_Participants",
+      "en" : "Legal Participants"
+    },
+    "subClasses" : [ "75", "78", "81" ],
+    "comment" : {
+      "en" : "legal participants involved in a case"
+    },
+    "id" : "1"
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Bench",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
@@ -672,11 +672,11 @@
       "IRI-based" : "Bench",
       "en" : "Bench"
     },
-    "subClasses" : [ "82", "86", "89", "92", "95" ],
+    "subClasses" : [ "84", "88", "91", "94", "97" ],
     "comment" : {
       "en" : "Defines the bench of the case."
     },
-    "id" : "83"
+    "id" : "85"
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#District_Court",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
@@ -714,8 +714,8 @@
     "comment" : {
       "en" : "a case heard and judged by a single judge"
     },
-    "id" : "86",
-    "superClasses" : [ "83" ]
+    "id" : "88",
+    "superClasses" : [ "85" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Judgement",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
@@ -724,7 +724,7 @@
       "IRI-based" : "Judgement",
       "en" : "Judgement"
     },
-    "id" : "108",
+    "id" : "109",
     "superClasses" : [ "59" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction",
@@ -763,7 +763,7 @@
     "comment" : {
       "en" : "represents investigator who files the FIR or investigates a case"
     },
-    "id" : "124",
+    "id" : "78",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Documents",
@@ -816,7 +816,7 @@
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "40",
+    "id" : "42",
     "label" : {
       "undefined" : "Thing"
     }
@@ -847,7 +847,7 @@
       "IRI-based" : "Courts_for_Civil",
       "en" : "Civil Courts"
     },
-    "subClasses" : [ "14", "18", "21", "24", "30", "100" ],
+    "subClasses" : [ "14", "18", "21", "24", "30", "102" ],
     "comment" : {
       "en" : "courts for civil cases"
     },
@@ -876,7 +876,7 @@
     "comment" : {
       "en" : "case is a criminal case"
     },
-    "id" : "75",
+    "id" : "124",
     "superClasses" : [ "37" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -888,7 +888,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "55",
+    "id" : "41",
     "label" : {
       "IRI-based" : "string"
     }
@@ -910,7 +910,7 @@
     "comment" : {
       "en" : "participants of the case are the individual persons"
     },
-    "id" : "114",
+    "id" : "115",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Country",
@@ -933,7 +933,7 @@
       "IRI-based" : "Order",
       "en" : "Order"
     },
-    "id" : "110",
+    "id" : "111",
     "superClasses" : [ "59" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Government",
@@ -946,7 +946,7 @@
     "comment" : {
       "en" : "participants involved (either on both sides or any one) is the government in the case"
     },
-    "id" : "118",
+    "id" : "119",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#District",
@@ -1010,8 +1010,8 @@
     "comment" : {
       "en" : "a term in judicial system in India in which a case is heard and judged by three or five judges"
     },
-    "id" : "89",
-    "superClasses" : [ "83" ]
+    "id" : "91",
+    "superClasses" : [ "85" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
@@ -1049,7 +1049,7 @@
     "comment" : {
       "en" : "represents solicitor, learned counsel or laywer of the case"
     },
-    "id" : "122",
+    "id" : "75",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#High_Court",
@@ -1137,7 +1137,7 @@
     "comment" : {
       "en" : "organization(s) involved as the participant in the case"
     },
-    "id" : "120",
+    "id" : "121",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Session_Court",
@@ -1163,7 +1163,7 @@
     "comment" : {
       "en" : "represents state name/location"
     },
-    "id" : "112",
+    "id" : "113",
     "superClasses" : [ "11", "2" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Tribunal_Bench",
@@ -1176,8 +1176,8 @@
     "comment" : {
       "en" : "Bench deals with tribunals cases"
     },
-    "id" : "82",
-    "superClasses" : [ "83" ]
+    "id" : "84",
+    "superClasses" : [ "85" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Location",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
@@ -1186,7 +1186,7 @@
       "IRI-based" : "Location",
       "en" : "Location"
     },
-    "subClasses" : [ "112", "218", "136", "200", "143" ],
+    "subClasses" : [ "113", "218", "136", "200", "143" ],
     "comment" : {
       "en" : "represents the location of the courts, etc and also used for evidence locations"
     },
@@ -1215,7 +1215,7 @@
     "comment" : {
       "en" : "represents the judge of the case"
     },
-    "id" : "103",
+    "id" : "81",
     "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Petitioner",
@@ -1265,8 +1265,8 @@
     "comment" : {
       "en" : "means the Bench constituted by or under the orders of the Chief Justice to hear a case or particular class of cases"
     },
-    "id" : "92",
-    "superClasses" : [ "83" ]
+    "id" : "94",
+    "superClasses" : [ "85" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
@@ -1275,7 +1275,7 @@
       "IRI-based" : "Jurisdiction",
       "en" : "Jurisdiction"
     },
-    "subClasses" : [ "98", "151", "209", "153", "34" ],
+    "subClasses" : [ "100", "151", "209", "153", "34" ],
     "comment" : {
       "en" : "the extent to which a court of law can exercise its authority over any cases filed across a region"
     },
@@ -1303,8 +1303,8 @@
     "comment" : {
       "en" : "a term in judicial system in India in which a case is heard and judged by at least 2 judges"
     },
-    "id" : "95",
-    "superClasses" : [ "83" ]
+    "id" : "97",
+    "superClasses" : [ "85" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Witness",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
@@ -1326,7 +1326,7 @@
       "IRI-based" : "Courts",
       "en" : "Courts"
     },
-    "subClasses" : [ "97", "144", "195", "32", "140" ],
+    "subClasses" : [ "99", "144", "195", "32", "140" ],
     "id" : "33"
   } ],
   "property" : [ {
@@ -1381,16 +1381,16 @@
     "id" : "36",
     "type" : "owl:objectProperty"
   }, {
+    "id" : "40",
+    "type" : "owl:datatypeProperty"
+  }, {
     "id" : "27",
     "type" : "owl:objectProperty"
-  }, {
-    "id" : "54",
-    "type" : "owl:datatypeProperty"
   }, {
     "id" : "57",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "52",
+    "id" : "54",
     "type" : "owl:objectProperty"
   }, {
     "id" : "61",
@@ -1417,85 +1417,85 @@
     "id" : "77",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "78",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "79",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "80",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "81",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "84",
+    "id" : "82",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "85",
+    "id" : "83",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "87",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "88",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "90",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "91",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "93",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "94",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "96",
+    "id" : "95",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "99",
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
     "type" : "owl:disjointWith"
   }, {
     "id" : "101",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "102",
-    "type" : "rdfs:SubClassOf"
+    "id" : "103",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "104",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "105",
     "type" : "owl:disjointWith"
   }, {
     "id" : "106",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "107",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "109",
+    "id" : "108",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "111",
+    "id" : "110",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "113",
+    "id" : "112",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "115",
+    "id" : "114",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "117",
+    "id" : "116",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "119",
+    "id" : "118",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "121",
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "123",
@@ -1549,10 +1549,10 @@
     "id" : "150",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "49",
+    "id" : "51",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "51",
+    "id" : "53",
     "type" : "owl:objectProperty"
   }, {
     "id" : "154",
@@ -1639,10 +1639,10 @@
     "id" : "185",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "43",
+    "id" : "45",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "47",
+    "id" : "49",
     "type" : "owl:objectProperty"
   }, {
     "id" : "187",
@@ -1714,7 +1714,7 @@
     "id" : "212",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "45",
+    "id" : "47",
     "type" : "owl:objectProperty"
   }, {
     "id" : "213",
@@ -1747,7 +1747,7 @@
     "id" : "223",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "50",
+    "id" : "52",
     "type" : "owl:objectProperty"
   }, {
     "id" : "225",
@@ -1843,7 +1843,7 @@
     "id" : "260",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "44",
+    "id" : "46",
     "type" : "owl:objectProperty"
   }, {
     "id" : "261",
@@ -1912,7 +1912,7 @@
     "id" : "282",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "42",
+    "id" : "44",
     "type" : "owl:objectProperty"
   }, {
     "id" : "283",
@@ -1999,7 +1999,7 @@
     "id" : "310",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "53",
+    "id" : "55",
     "type" : "owl:objectProperty"
   }, {
     "id" : "311",
@@ -2017,7 +2017,7 @@
     "id" : "315",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "48",
+    "id" : "50",
     "type" : "owl:objectProperty"
   }, {
     "id" : "316",
@@ -2044,7 +2044,7 @@
     "id" : "323",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "41",
+    "id" : "43",
     "type" : "owl:objectProperty"
   }, {
     "id" : "324",
@@ -2134,7 +2134,7 @@
     "id" : "352",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "46",
+    "id" : "48",
     "type" : "owl:objectProperty"
   }, {
     "id" : "353",
@@ -2258,20 +2258,9 @@
     "attributes" : [ "object" ],
     "id" : "36"
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
-    "baseIri" : "http://www.w3.org/2002/07/owl",
-    "range" : "40",
-    "label" : {
-      "IRI-based" : "topObjectProperty"
-    },
-    "domain" : "40",
-    "subproperty" : [ "41", "42", "25", "43", "44", "45", "46", "47", "36", "48", "49", "50", "51", "52", "53" ],
-    "attributes" : [ "object", "external" ],
-    "id" : "27"
-  }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#hasCaseName",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
-    "range" : "55",
+    "range" : "41",
     "label" : {
       "IRI-based" : "hasCaseName",
       "en" : "hasCaseName"
@@ -2281,7 +2270,18 @@
       "en" : "name of the case"
     },
     "attributes" : [ "datatype" ],
-    "id" : "54"
+    "id" : "40"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "42",
+    "subproperty" : [ "43", "44", "25", "45", "46", "47", "48", "49", "36", "50", "51", "52", "53", "54", "55" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "27"
   }, {
     "range" : "5",
     "domain" : "58",
@@ -2301,7 +2301,7 @@
       "en" : "property justifies the type of courts decision given by the judge in the case"
     },
     "attributes" : [ "object" ],
-    "id" : "52"
+    "id" : "54"
   }, {
     "range" : "11",
     "domain" : "1",
@@ -2328,7 +2328,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "72"
   }, {
-    "range" : "37",
+    "range" : "1",
     "domain" : "75",
     "attributes" : [ "object", "anonymous" ],
     "id" : "74"
@@ -2338,147 +2338,147 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "76"
   }, {
-    "range" : "37",
-    "domain" : "60",
+    "range" : "1",
+    "domain" : "78",
     "attributes" : [ "object", "anonymous" ],
     "id" : "77"
   }, {
     "range" : "2",
     "domain" : "73",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "78"
-  }, {
-    "range" : "37",
-    "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "79"
+  }, {
+    "range" : "1",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
   }, {
     "range" : "7",
     "domain" : "73",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "80"
+    "id" : "82"
   }, {
-    "range" : "83",
-    "domain" : "82",
+    "range" : "85",
+    "domain" : "84",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "81"
+    "id" : "83"
   }, {
     "range" : "1",
     "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "84"
+    "id" : "86"
   }, {
-    "range" : "83",
-    "domain" : "86",
+    "range" : "85",
+    "domain" : "88",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "85"
+    "id" : "87"
   }, {
     "range" : "11",
     "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "87"
+    "id" : "89"
   }, {
-    "range" : "83",
-    "domain" : "89",
+    "range" : "85",
+    "domain" : "91",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "88"
+    "id" : "90"
   }, {
     "range" : "12",
     "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "90"
+    "id" : "92"
   }, {
-    "range" : "83",
-    "domain" : "92",
+    "range" : "85",
+    "domain" : "94",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "91"
+    "id" : "93"
   }, {
     "range" : "2",
     "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "93"
+    "id" : "95"
   }, {
-    "range" : "83",
-    "domain" : "95",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "94"
-  }, {
-    "range" : "7",
-    "domain" : "35",
+    "range" : "85",
+    "domain" : "97",
     "attributes" : [ "object", "anonymous" ],
     "id" : "96"
   }, {
     "range" : "7",
-    "domain" : "5",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "99"
+    "id" : "98"
   }, {
-    "range" : "2",
+    "range" : "7",
     "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
     "id" : "101"
   }, {
-    "range" : "1",
-    "domain" : "103",
+    "range" : "2",
+    "domain" : "5",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "102"
+    "id" : "103"
+  }, {
+    "range" : "37",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
   }, {
     "range" : "35",
     "domain" : "73",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "104"
+    "id" : "105"
   }, {
     "range" : "1",
     "domain" : "73",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "105"
-  }, {
-    "range" : "37",
-    "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "106"
   }, {
-    "range" : "59",
-    "domain" : "108",
+    "range" : "37",
+    "domain" : "15",
     "attributes" : [ "object", "anonymous" ],
     "id" : "107"
   }, {
     "range" : "59",
-    "domain" : "110",
+    "domain" : "109",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "109"
+    "id" : "108"
+  }, {
+    "range" : "59",
+    "domain" : "111",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
   }, {
     "range" : "2",
-    "domain" : "112",
+    "domain" : "113",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "111"
+    "id" : "112"
   }, {
     "range" : "2",
-    "domain" : "114",
+    "domain" : "115",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "113"
+    "id" : "114"
   }, {
     "range" : "2",
-    "domain" : "116",
+    "domain" : "117",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "115"
+    "id" : "116"
   }, {
     "range" : "2",
-    "domain" : "118",
+    "domain" : "119",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "117"
+    "id" : "118"
   }, {
     "range" : "2",
-    "domain" : "120",
+    "domain" : "121",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "119"
+    "id" : "120"
   }, {
-    "range" : "1",
-    "domain" : "122",
+    "range" : "37",
+    "domain" : "39",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "121"
+    "id" : "122"
   }, {
-    "range" : "1",
+    "range" : "37",
     "domain" : "124",
     "attributes" : [ "object", "anonymous" ],
     "id" : "123"
@@ -2544,7 +2544,7 @@
     "label" : {
       "IRI-based" : "topDataProperty"
     },
-    "domain" : "40",
+    "domain" : "42",
     "attributes" : [ "datatype", "external" ],
     "id" : "145"
   }, {
@@ -2581,7 +2581,7 @@
       "en" : "property justifies that the jurisdiction of the court is the appellant jurisdiction"
     },
     "attributes" : [ "object" ],
-    "id" : "49"
+    "id" : "51"
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#hasCourts",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
@@ -2596,7 +2596,7 @@
       "en" : "property defines the different courts involved in the case"
     },
     "attributes" : [ "object" ],
-    "id" : "51"
+    "id" : "53"
   }, {
     "range" : "21",
     "domain" : "30",
@@ -2604,7 +2604,7 @@
     "id" : "154"
   }, {
     "range" : "14",
-    "domain" : "100",
+    "domain" : "102",
     "attributes" : [ "object", "anonymous" ],
     "id" : "155"
   }, {
@@ -2615,7 +2615,7 @@
       "IRI-based" : "hasJudgement",
       "en" : "hasJudgement"
     },
-    "domain" : "108",
+    "domain" : "109",
     "comment" : {
       "en" : "judgement given on the case"
     },
@@ -2623,17 +2623,17 @@
     "id" : "156"
   }, {
     "range" : "24",
-    "domain" : "100",
+    "domain" : "102",
     "attributes" : [ "object", "anonymous" ],
     "id" : "158"
   }, {
     "range" : "18",
-    "domain" : "100",
+    "domain" : "102",
     "attributes" : [ "object", "anonymous" ],
     "id" : "159"
   }, {
     "range" : "21",
-    "domain" : "100",
+    "domain" : "102",
     "attributes" : [ "object", "anonymous" ],
     "id" : "160"
   }, {
@@ -2647,7 +2647,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "162"
   }, {
-    "range" : "100",
+    "range" : "102",
     "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
     "id" : "163"
@@ -2716,7 +2716,7 @@
       "IRI-based" : "hasOrder",
       "en" : "hasOrder"
     },
-    "domain" : "110",
+    "domain" : "111",
     "comment" : {
       "en" : "order given in the case as the court decision"
     },
@@ -2796,7 +2796,7 @@
       "en" : "property signifies the non-legal participants of the case"
     },
     "attributes" : [ "object" ],
-    "id" : "43"
+    "id" : "45"
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#hasAuthor",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
@@ -2811,7 +2811,7 @@
       "en" : "case has a author who is one of the judge of the case"
     },
     "attributes" : [ "object" ],
-    "id" : "47"
+    "id" : "49"
   }, {
     "range" : "35",
     "domain" : "34",
@@ -2838,7 +2838,7 @@
     "id" : "189"
   }, {
     "range" : "33",
-    "domain" : "97",
+    "domain" : "99",
     "attributes" : [ "object", "anonymous" ],
     "id" : "190"
   }, {
@@ -2872,7 +2872,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "197"
   }, {
-    "range" : "98",
+    "range" : "100",
     "domain" : "153",
     "attributes" : [ "object", "anonymous" ],
     "id" : "198"
@@ -2893,12 +2893,12 @@
     "id" : "202"
   }, {
     "range" : "34",
-    "domain" : "98",
+    "domain" : "100",
     "attributes" : [ "object", "anonymous" ],
     "id" : "203"
   }, {
     "range" : "35",
-    "domain" : "98",
+    "domain" : "100",
     "attributes" : [ "object", "anonymous" ],
     "id" : "204"
   }, {
@@ -2950,10 +2950,10 @@
       "en" : "property justifies that the jurisdiction of the court is the review jurisdiction"
     },
     "attributes" : [ "object" ],
-    "id" : "45"
+    "id" : "47"
   }, {
     "range" : "15",
-    "domain" : "100",
+    "domain" : "102",
     "attributes" : [ "object", "anonymous" ],
     "id" : "213"
   }, {
@@ -2963,11 +2963,11 @@
     "id" : "214"
   }, {
     "range" : "11",
-    "domain" : "112",
+    "domain" : "113",
     "attributes" : [ "object", "anonymous" ],
     "id" : "215"
   }, {
-    "range" : "98",
+    "range" : "100",
     "domain" : "209",
     "attributes" : [ "object", "anonymous" ],
     "id" : "216"
@@ -2992,7 +2992,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "221"
   }, {
-    "range" : "83",
+    "range" : "85",
     "domain" : "186",
     "attributes" : [ "object", "anonymous" ],
     "id" : "222"
@@ -3004,7 +3004,7 @@
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#hasBench",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
-    "range" : "83",
+    "range" : "85",
     "label" : {
       "IRI-based" : "hasBench",
       "en" : "hasBench"
@@ -3015,7 +3015,7 @@
       "en" : "case has a bench of judges"
     },
     "attributes" : [ "object" ],
-    "id" : "50"
+    "id" : "52"
   }, {
     "range" : "11",
     "domain" : "125",
@@ -3064,7 +3064,7 @@
       "IRI-based" : "stateName",
       "en" : "stateName"
     },
-    "domain" : "112",
+    "domain" : "113",
     "comment" : {
       "en" : "name of the State"
     },
@@ -3086,8 +3086,8 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "240"
   }, {
-    "range" : "112",
-    "domain" : "114",
+    "range" : "113",
+    "domain" : "115",
     "attributes" : [ "object", "anonymous" ],
     "id" : "241"
   }, {
@@ -3096,8 +3096,8 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "242"
   }, {
-    "range" : "112",
-    "domain" : "120",
+    "range" : "113",
+    "domain" : "121",
     "attributes" : [ "object", "anonymous" ],
     "id" : "243"
   }, {
@@ -3106,18 +3106,18 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "244"
   }, {
-    "range" : "103",
-    "domain" : "124",
+    "range" : "81",
+    "domain" : "78",
     "attributes" : [ "object", "anonymous" ],
     "id" : "245"
   }, {
-    "range" : "83",
+    "range" : "85",
     "domain" : "125",
     "attributes" : [ "object", "anonymous" ],
     "id" : "246"
   }, {
-    "range" : "122",
-    "domain" : "124",
+    "range" : "75",
+    "domain" : "78",
     "attributes" : [ "object", "anonymous" ],
     "id" : "247"
   }, {
@@ -3126,8 +3126,8 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "248"
   }, {
-    "range" : "122",
-    "domain" : "103",
+    "range" : "75",
+    "domain" : "81",
     "attributes" : [ "object", "anonymous" ],
     "id" : "249"
   }, {
@@ -3136,8 +3136,8 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "250"
   }, {
-    "range" : "110",
-    "domain" : "108",
+    "range" : "111",
+    "domain" : "109",
     "attributes" : [ "object", "anonymous" ],
     "id" : "251"
   }, {
@@ -3152,38 +3152,38 @@
     "id" : "254"
   }, {
     "range" : "11",
-    "domain" : "83",
+    "domain" : "85",
     "attributes" : [ "object", "anonymous" ],
     "id" : "255"
   }, {
-    "range" : "112",
-    "domain" : "116",
+    "range" : "113",
+    "domain" : "117",
     "attributes" : [ "object", "anonymous" ],
     "id" : "256"
   }, {
-    "range" : "120",
-    "domain" : "114",
+    "range" : "121",
+    "domain" : "115",
     "attributes" : [ "object", "anonymous" ],
     "id" : "257"
   }, {
     "range" : "2",
-    "domain" : "83",
+    "domain" : "85",
     "attributes" : [ "object", "anonymous" ],
     "id" : "258"
   }, {
     "range" : "12",
-    "domain" : "83",
+    "domain" : "85",
     "attributes" : [ "object", "anonymous" ],
     "id" : "259"
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#hasWritJurisdiction",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
-    "range" : "40",
+    "range" : "42",
     "label" : {
       "IRI-based" : "hasWritJurisdiction",
       "en" : "hasWritJurisdiction"
     },
-    "domain" : "40",
+    "domain" : "42",
     "comment" : {
       "en" : "property justifies that the jurisdiction of the court is the writ jurisdiction"
     },
@@ -3203,7 +3203,7 @@
       "en" : "proprty represnts the evidences of the case"
     },
     "attributes" : [ "object" ],
-    "id" : "44"
+    "id" : "46"
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#GovernmentName",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
@@ -3212,7 +3212,7 @@
       "IRI-based" : "GovernmentName",
       "en" : "governmentName"
     },
-    "domain" : "118",
+    "domain" : "119",
     "comment" : {
       "en" : "Name of the Government"
     },
@@ -3220,7 +3220,7 @@
     "id" : "261"
   }, {
     "range" : "73",
-    "domain" : "83",
+    "domain" : "85",
     "attributes" : [ "object", "anonymous" ],
     "id" : "262"
   }, {
@@ -3230,76 +3230,76 @@
     "id" : "263"
   }, {
     "range" : "5",
-    "domain" : "83",
+    "domain" : "85",
     "attributes" : [ "object", "anonymous" ],
     "id" : "264"
   }, {
     "range" : "136",
-    "domain" : "112",
+    "domain" : "113",
     "attributes" : [ "object", "anonymous" ],
     "id" : "265"
   }, {
     "range" : "1",
-    "domain" : "83",
+    "domain" : "85",
     "attributes" : [ "object", "anonymous" ],
     "id" : "266"
   }, {
-    "range" : "116",
-    "domain" : "118",
+    "range" : "117",
+    "domain" : "119",
     "attributes" : [ "object", "anonymous" ],
     "id" : "267"
   }, {
     "range" : "35",
-    "domain" : "83",
+    "domain" : "85",
     "attributes" : [ "object", "anonymous" ],
     "id" : "268"
   }, {
-    "range" : "114",
-    "domain" : "118",
+    "range" : "115",
+    "domain" : "119",
     "attributes" : [ "object", "anonymous" ],
     "id" : "269"
   }, {
     "range" : "37",
-    "domain" : "83",
+    "domain" : "85",
     "attributes" : [ "object", "anonymous" ],
     "id" : "270"
   }, {
-    "range" : "120",
-    "domain" : "118",
+    "range" : "121",
+    "domain" : "119",
     "attributes" : [ "object", "anonymous" ],
     "id" : "271"
   }, {
     "range" : "26",
-    "domain" : "83",
+    "domain" : "85",
     "attributes" : [ "object", "anonymous" ],
     "id" : "272"
   }, {
-    "range" : "112",
-    "domain" : "118",
+    "range" : "113",
+    "domain" : "119",
     "attributes" : [ "object", "anonymous" ],
     "id" : "273"
   }, {
     "range" : "33",
-    "domain" : "83",
+    "domain" : "85",
     "attributes" : [ "object", "anonymous" ],
     "id" : "274"
   }, {
-    "range" : "114",
-    "domain" : "116",
+    "range" : "115",
+    "domain" : "117",
     "attributes" : [ "object", "anonymous" ],
     "id" : "275"
   }, {
     "range" : "59",
-    "domain" : "83",
+    "domain" : "85",
     "attributes" : [ "object", "anonymous" ],
     "id" : "276"
   }, {
-    "range" : "120",
-    "domain" : "116",
+    "range" : "121",
+    "domain" : "117",
     "attributes" : [ "object", "anonymous" ],
     "id" : "277"
   }, {
-    "range" : "112",
+    "range" : "113",
     "domain" : "200",
     "attributes" : [ "object", "anonymous" ],
     "id" : "278"
@@ -3314,7 +3314,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "280"
   }, {
-    "range" : "112",
+    "range" : "113",
     "domain" : "143",
     "attributes" : [ "object", "anonymous" ],
     "id" : "281"
@@ -3337,7 +3337,7 @@
       "en" : "property justifies that the jurisdiction of the court is the advisory jurisdiction"
     },
     "attributes" : [ "object" ],
-    "id" : "42"
+    "id" : "44"
   }, {
     "range" : "12",
     "domain" : "186",
@@ -3364,7 +3364,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "287"
   }, {
-    "range" : "75",
+    "range" : "124",
     "domain" : "60",
     "attributes" : [ "object", "anonymous" ],
     "id" : "288"
@@ -3394,7 +3394,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "293"
   }, {
-    "range" : "112",
+    "range" : "113",
     "domain" : "218",
     "attributes" : [ "object", "anonymous" ],
     "id" : "294"
@@ -3446,7 +3446,7 @@
       "IRI-based" : "organizationName",
       "en" : "organizationName"
     },
-    "domain" : "120",
+    "domain" : "121",
     "comment" : {
       "en" : "name of the organization"
     },
@@ -3460,12 +3460,12 @@
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#hasIndividual",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
-    "range" : "114",
+    "range" : "115",
     "label" : {
       "IRI-based" : "hasIndividual",
       "en" : "hasIndividuals"
     },
-    "domain" : "116",
+    "domain" : "117",
     "comment" : {
       "en" : "represents that the group party of the case includes the individuals"
     },
@@ -3510,7 +3510,7 @@
       "en" : "property signifies the legal participants of the case"
     },
     "attributes" : [ "object" ],
-    "id" : "53"
+    "id" : "55"
   }, {
     "range" : "33",
     "domain" : "37",
@@ -3550,7 +3550,7 @@
       "en" : "acts involved in the case"
     },
     "attributes" : [ "object" ],
-    "id" : "48"
+    "id" : "50"
   }, {
     "range" : "73",
     "domain" : "26",
@@ -3573,7 +3573,7 @@
     "id" : "319"
   }, {
     "range" : "7",
-    "domain" : "83",
+    "domain" : "85",
     "attributes" : [ "object", "anonymous" ],
     "id" : "320"
   }, {
@@ -3594,7 +3594,7 @@
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#hasOriginalJurisdiction",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
-    "range" : "98",
+    "range" : "100",
     "label" : {
       "IRI-based" : "hasOriginalJurisdiction",
       "en" : "hasOriginalJurisdiction"
@@ -3605,7 +3605,7 @@
       "en" : "property justifies that the jurisdiction of the court is the original jurisdiction"
     },
     "attributes" : [ "object" ],
-    "id" : "41"
+    "id" : "43"
   }, {
     "range" : "35",
     "domain" : "5",
@@ -3698,7 +3698,7 @@
       "IRI-based" : "individualName",
       "en" : "individualName"
     },
-    "domain" : "114",
+    "domain" : "115",
     "comment" : {
       "en" : "name of the individual or the party"
     },
@@ -3789,7 +3789,7 @@
     "superproperty" : [ "27" ],
     "domain" : "26",
     "attributes" : [ "object" ],
-    "id" : "46"
+    "id" : "48"
   }, {
     "range" : "1",
     "domain" : "59",
