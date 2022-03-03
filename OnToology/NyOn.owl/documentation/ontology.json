@@ -234,20 +234,20 @@
   "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology",
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/publisher" : [ {
-    "@id" : "http://website/"
+    "@id" : "https://www.semintelligence.org/projects"
   } ],
   "http://purl.org/dc/terms/created" : [ {
     "@value" : "2020-04-04"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
-    "@value" : "Nandana Mihindukulasooriya"
+    "@value" : "Harde, Pooja"
   }, {
-    "@value" : "Pooja Harde"
+    "@value" : "Jain, Sarika"
   }, {
-    "@value" : "Sarika Jain"
+    "@value" : "Mihindukulasooriya, Nandana"
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",

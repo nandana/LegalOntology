@@ -4,27 +4,27 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://w3id.org/def/NyOnLegalOntology> .
+@base <https://w3id.org/def/NyOnLegalOntology#> .
 
-<https://w3id.org/def/NyOnLegalOntology> rdf:type owl:Ontology ;
-                                          <http://purl.org/dc/elements/1.1/publisher> <http://website/> ;
-                                          <http://purl.org/dc/terms/created> "2020-04-04" ;
-                                          <http://purl.org/dc/terms/creator> "Nandana Mihindukulasooriya" ,
-                                                                             "Pooja Harde" ,
-                                                                             "Sarika Jain" ;
-                                          <http://purl.org/dc/terms/description> "An ontology that represents concepts in the legal domain."@en ,
-                                                                                 "Eine Ontologie, die Konzepte im Rechtsbereich darstellt."@de ,
-                                                                                 "Una ontología que representa conceptos en el dominio jurídico."@es ,
-                                                                                 "Une ontologie qui représente des concepts du domaine juridique."@fr ;
-                                          <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> ;
-                                          <http://purl.org/dc/terms/modified> "2020-07-16" ;
-                                          <http://purl.org/dc/terms/title> "NyOn: A Multilingual Legal Ontology for Globalized Judicial System"@en ,
-                                                                           "NyOn: Eine mehrsprachige Rechtsontologie für ein globalisiertes Justizsystem"@de ,
-                                                                           "NyOn: Una ontología jurídica multilingüe para el sistema judicial globalizado"@es ,
-                                                                           "NyOn: Une ontologie juridique multilingue pour un système judiciaire mondialisé"@fr ;
-                                          <http://purl.org/vocab/vann/preferredNamespacePrefix> "nyon" ;
-                                          <http://purl.org/vocab/vann/preferredNamespaceUri> : ;
-                                          owl:versionInfo 1.0 .
+<https://w3id.org/def/NyOnLegalOntology#> rdf:type owl:Ontology ;
+                                           <http://purl.org/dc/elements/1.1/publisher> <https://www.semintelligence.org/projects> ;
+                                           <http://purl.org/dc/terms/created> "2020-04-04" ;
+                                           <http://purl.org/dc/terms/creator> "Harde, Pooja" ,
+                                                                              "Jain, Sarika" ,
+                                                                              "Mihindukulasooriya, Nandana" ;
+                                           <http://purl.org/dc/terms/description> "An ontology that represents concepts in the legal domain."@en ,
+                                                                                  "Eine Ontologie, die Konzepte im Rechtsbereich darstellt."@de ,
+                                                                                  "Una ontología que representa conceptos en el dominio jurídico."@es ,
+                                                                                  "Une ontologie qui représente des concepts du domaine juridique."@fr ;
+                                           <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> ;
+                                           <http://purl.org/dc/terms/modified> "2020-07-16" ;
+                                           <http://purl.org/dc/terms/title> "NyOn: A Multilingual Legal Ontology for Globalized Judicial System"@en ,
+                                                                            "NyOn: Eine mehrsprachige Rechtsontologie für ein globalisiertes Justizsystem"@de ,
+                                                                            "NyOn: Una ontología jurídica multilingüe para el sistema judicial globalizado"@es ,
+                                                                            "NyOn: Une ontologie juridique multilingue pour un système judiciaire mondialisé"@fr ;
+                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "nyon" ;
+                                           <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/def/NyOnLegalOntology#> ;
+                                           owl:versionInfo 1.0 .
 
 #################################################################
 #    Annotation properties

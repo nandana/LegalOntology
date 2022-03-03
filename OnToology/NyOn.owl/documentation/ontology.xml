@@ -9,12 +9,12 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://w3id.org/def/NyOnLegalOntology">
-        <dc:publisher rdf:resource="http://website/"/>
+    <owl:Ontology rdf:about="https://w3id.org/def/NyOnLegalOntology#">
+        <dc:publisher rdf:resource="https://www.semintelligence.org/projects"/>
         <terms:created>2020-04-04</terms:created>
-        <terms:creator>Nandana Mihindukulasooriya</terms:creator>
-        <terms:creator>Pooja Harde</terms:creator>
-        <terms:creator>Sarika Jain</terms:creator>
+        <terms:creator>Harde, Pooja</terms:creator>
+        <terms:creator>Jain, Sarika</terms:creator>
+        <terms:creator>Mihindukulasooriya, Nandana</terms:creator>
         <terms:description xml:lang="en">An ontology that represents concepts in the legal domain.</terms:description>
         <terms:description xml:lang="de">Eine Ontologie, die Konzepte im Rechtsbereich darstellt.</terms:description>
         <terms:description xml:lang="es">Una ontología que representa conceptos en el dominio jurídico.</terms:description>
