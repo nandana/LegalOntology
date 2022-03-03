@@ -1,0 +1,2450 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Accussed"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Appellant"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Petitioner"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Plaintiff"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Respondent"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Witness"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Appeal"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Judgements"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#FIR"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Others"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Petition"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Session_Court"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#District_Court"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Munsif_Court"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Sub_Court"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Country"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#District"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Place"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#State"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Taluka"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Government"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Group"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Individual"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Organization"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#State"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Investigator"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Judge"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Solicitor"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#caseBelongsToType"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#documentType"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasActs"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasAdvisoryJurisdiction"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasAppellantJurisdiction"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasAuthor"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasBench"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasCourtDecision"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasCourts"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasEvidenceLocation"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasEvidences"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasIndividual"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasLegalParticipants"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasLocation"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasNonLegalParticipants"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasOriginalJurisdiction"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasParticipantType"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasPrecedentCase"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasReviewJurisdiction"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#isA"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Acts"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Author"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Evidence"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Legal_Participants"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Precedent_Case"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/publisher" : [ {
+    "@id" : "https://www.semintelligence.org/projects"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "2020-04-04"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Harde, Pooja"
+  }, {
+    "@value" : "Jain, Sarika"
+  }, {
+    "@value" : "Mihindukulasooriya, Nandana"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "An ontology that represents concepts in the legal domain."
+  }, {
+    "@language" : "de",
+    "@value" : "Eine Ontologie, die Konzepte im Rechtsbereich darstellt."
+  }, {
+    "@language" : "es",
+    "@value" : "Una ontología que representa conceptos en el dominio jurídico."
+  }, {
+    "@language" : "fr",
+    "@value" : "Une ontologie qui représente des concepts du domaine juridique."
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "http://purl.org/NET/rdflicense/cc-by4.0"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@value" : "2020-07-16"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "NyOn: A Multilingual Legal Ontology for Globalized Judicial System"
+  }, {
+    "@language" : "de",
+    "@value" : "NyOn: Eine mehrsprachige Rechtsontologie für ein globalisiertes Justizsystem"
+  }, {
+    "@language" : "es",
+    "@value" : "NyOn: Una ontología jurídica multilingüe para el sistema judicial globalizado"
+  }, {
+    "@language" : "fr",
+    "@value" : "NyOn: Une ontologie juridique multilingue pour un système judiciaire mondialisé"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "nyon"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.0"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Accussed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represents the accused of the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accused"
+  }, {
+    "@language" : "fr",
+    "@value" : "Accusé"
+  }, {
+    "@language" : "es",
+    "@value" : "Acusado"
+  }, {
+    "@language" : "de",
+    "@value" : "Beschuldigt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Acts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Acts or Rules common for Civil and Crimnial Law"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Actes"
+  }, {
+    "@language" : "en",
+    "@value" : "Acts"
+  }, {
+    "@language" : "de",
+    "@value" : "Handlung"
+  }, {
+    "@language" : "es",
+    "@value" : "Hechos"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "jurisdiction type is a advisory jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Advisory Jurisdiction"
+  }, {
+    "@language" : "de",
+    "@value" : "Beratende Gerichtsbarkeit."
+  }, {
+    "@language" : "fr",
+    "@value" : "Compétence consultative"
+  }, {
+    "@language" : "es",
+    "@value" : "Jurisdicción de asesoramiento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Apex_Court",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Apex Court"
+  }, {
+    "@language" : "en",
+    "@value" : "Apex Court"
+  }, {
+    "@language" : "es",
+    "@value" : "Corte del ápice"
+  }, {
+    "@language" : "fr",
+    "@value" : "Tribunal d'apex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Appeal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "document is an appeal document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Apelación"
+  }, {
+    "@language" : "en",
+    "@value" : "Appeal"
+  }, {
+    "@language" : "de",
+    "@value" : "Appellieren"
+  }, {
+    "@language" : "fr",
+    "@value" : "Faire appel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Appellant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represents the appellant of the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Apelante"
+  }, {
+    "@language" : "fr",
+    "@value" : "Appelant"
+  }, {
+    "@language" : "en",
+    "@value" : "Appellant"
+  }, {
+    "@language" : "de",
+    "@value" : "Rechtsmittelführerin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "jurisdiction type is a appellant jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Appellant Jurisdiction"
+  }, {
+    "@language" : "fr",
+    "@value" : "Juridiction de l'appelant"
+  }, {
+    "@language" : "es",
+    "@value" : "Jurisdicción del apelante"
+  }, {
+    "@language" : "de",
+    "@value" : "Rechtsmittelgerichtsbarkeit."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Attempt_to_Commit_Murder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Attempt_to_commit_Culpable_Homicide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Author",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Author (Judge) who is responsible for a creation of case document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Auteur"
+  }, {
+    "@language" : "en",
+    "@value" : "Author"
+  }, {
+    "@language" : "de",
+    "@value" : "Autor"
+  }, {
+    "@language" : "es",
+    "@value" : "Autor"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Defines the bench of the case."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Banc"
+  }, {
+    "@language" : "de",
+    "@value" : "Bank"
+  }, {
+    "@language" : "en",
+    "@value" : "Bench"
+  }, {
+    "@language" : "es",
+    "@value" : "Mesa de trabajo"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Case",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a legal court case or court decision or case document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Cas"
+  }, {
+    "@language" : "en",
+    "@value" : "Case"
+  }, {
+    "@language" : "es",
+    "@value" : "Caso"
+  }, {
+    "@language" : "de",
+    "@value" : "Fall"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "defines the category of the case to which it belongs (Criminal or Civil according to Indian Judicial System)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Case Type"
+  }, {
+    "@language" : "de",
+    "@value" : "Fallart"
+  }, {
+    "@language" : "es",
+    "@value" : "Tipo de caso"
+  }, {
+    "@language" : "fr",
+    "@value" : "Type de cas"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Causing_death_by_negligence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Causing_injuries_due_to_rash_driving/rode_rage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "lower court at metropolitan level after Sessions Court for criminal cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Chief Meterpolitan Court"
+  }, {
+    "@language" : "en",
+    "@value" : "Chief Meterpolitan Court"
+  }, {
+    "@language" : "fr",
+    "@value" : "Court-compteur en chef"
+  }, {
+    "@language" : "es",
+    "@value" : "Jefe Tribunal Metropolitana"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "lower court at metropolitan level after High Courts for civil cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "City Civil Courts"
+  }, {
+    "@language" : "fr",
+    "@value" : "Courts civils de la ville"
+  }, {
+    "@language" : "de",
+    "@value" : "Stadtzivilgerichte"
+  }, {
+    "@language" : "es",
+    "@value" : "Tribunales civiles de la ciudad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Civil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "case is a civil case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Bürgerlich"
+  }, {
+    "@language" : "en",
+    "@value" : "Civil"
+  }, {
+    "@language" : "es",
+    "@value" : "Civil"
+  }, {
+    "@language" : "fr",
+    "@value" : "Civil"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Criminal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represents the country name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Country"
+  }, {
+    "@language" : "fr",
+    "@value" : "De campagne"
+  }, {
+    "@language" : "de",
+    "@value" : "Land"
+  }, {
+    "@language" : "es",
+    "@value" : "País"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Court Decision"
+  }, {
+    "@language" : "es",
+    "@value" : "Decision de la Corte"
+  }, {
+    "@language" : "fr",
+    "@value" : "Décision du tribunal"
+  }, {
+    "@language" : "de",
+    "@value" : "Gerichtsurteil"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Judgements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "document is a court judgement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Court Judgements"
+  }, {
+    "@language" : "de",
+    "@value" : "Gerichtsurteile"
+  }, {
+    "@language" : "fr",
+    "@value" : "Jugements judiciaires"
+  }, {
+    "@language" : "es",
+    "@value" : "Juicios judiciales"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Courts"
+  }, {
+    "@language" : "de",
+    "@value" : "Gerichte"
+  }, {
+    "@language" : "es",
+    "@value" : "Tribunales"
+  }, {
+    "@language" : "fr",
+    "@value" : "Tribunaux"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "courts for civil cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Civil Courts"
+  }, {
+    "@language" : "fr",
+    "@value" : "Cours de petites causes"
+  }, {
+    "@language" : "de",
+    "@value" : "Gerichte kleinerer Ursachen"
+  }, {
+    "@language" : "es",
+    "@value" : "Tribunales de causas más pequeñas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Criminal Courts"
+  }, {
+    "@language" : "es",
+    "@value" : "Delincuente"
+  }, {
+    "@language" : "de",
+    "@value" : "Kriminelle Gerichte"
+  }, {
+    "@language" : "fr",
+    "@value" : "Tribunaux criminels"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "lowest court after City Civil Courts at metropolitan level for civil cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Courts of Smaller Causes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Criminal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "case is a criminal case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Criminal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Culpable_homicide_not_amounting_to_murder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#District",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represents district name/location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "District"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#District_Court",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "lower court at district level after High Courts for civil cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "District Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#District_Courts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "District Courts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Division_Bench",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a term in judicial system in India in which a case is heard and judged by at least 2 judges"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Division Bench"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "various documents used in legal domain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Documents"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Evidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "evidences presented in front of the court in the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Evidence"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#FIR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "document is a FIR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "FIR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Government",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "participants involved (either on both sides or any one) is the government in the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Government"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#GovernmentName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Name of the Government"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Government"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "governmentName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Grievous_hurt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Group",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "participants of the case are the group of people on one side against another group of people or individual or state"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Group"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#High_Court",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "High Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Human_trafficking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Individual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "participants of the case are the individual persons"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Individual"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Investigator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represents investigator who files the FIR or investigates a case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Investigator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Legal_Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Judge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represents the judge of the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Judge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Legal_Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Judgement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Judgement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Order"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "second lower court at distrcit level after districit level Session Court for criminal cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Judicial Magistrate Court (First Class)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "lowest court after Judicial Magistrate Court (First Class) at distrcit level for criminal cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Judicial Magistrate Court (Second Class)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "the extent to which a court of law can exercise its authority over any cases filed across a region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Jurisdiction"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Kidnapping_&_Abduction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Larger_Bench",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a term in judicial system in India in which a case is heard and judged by three or five judges"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Larger Bench"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Legal_Participants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "legal participants involved in a case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Legal Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represents the location of the courts, etc and also used for evidence locations"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Location"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "lowest court after Chief Metropolitan Court at metropolitan level for criminal cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Metropolitan Magistrate Courts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Metropolitian_Courts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Metropolitan Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Munsif_Court",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "lowest court in heirarchy for civil ases at district level after Principal Junior Civil Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Munsif Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Murder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "participants who does not belong to the legal domain or partities involved in the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Non-Legal Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Order",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "organization(s) involved as the participant in the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "jurisdiction type is a original jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Original Jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Others",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Other documents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Others"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represents the types of participants involved in the case as oppositions in the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Petition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "document is a petition document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Petition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Petitioner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represnts the petitioner of the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Petitioner"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "location name or place name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Plaintiff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represnts the plaintiff of the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Plaintiff"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Precedent_Case",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "refers to the precedent cases of the cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Precedent Case"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "third lower court in hierarchy at district level for civil cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Principal Junior Civil Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Respondent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represents the respondent of the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Respondent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "jurisdiction type is a review jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Review Jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Session_Court",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "lower court at both distrcit and metropolitan level after High Courts specific for criminal cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Sessions Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Single_Judge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a case heard and judged by a single judge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Single Judge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Solicitor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represents solicitor, learned counsel or laywer of the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Solicitor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Legal_Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Special_Bench",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "means the Bench constituted by or under the orders of the Chief Justice to hear a case or particular class of cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Special Bench"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#State",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represents state name/location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "State"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+  }, {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Sub_Court",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "second lower court in hierarchy at District level for civil cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Sub Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Taluka",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represents taluka name/location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Taluka"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Tribunal_Bench",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Bench deals with tribunals cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Tribunal Bench"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Tribunals",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "institutions established for discharging judicial or quasi-judicial duties under the Government of India"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Tribunals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Witness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "witness involved/presented in the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Witness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Writ_Jurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "jurisdiction type is a writ jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : ""
+  }, {
+    "@language" : "es",
+    "@value" : ""
+  }, {
+    "@language" : "fr",
+    "@value" : ""
+  }, {
+    "@language" : "en",
+    "@value" : "Writ Jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#caseBelongsToType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "caseBelongsToType"
+  }, {
+    "@language" : "en",
+    "@value" : "property justifies the relationship of the case with the particular domain to which it belongs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#documentType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "documentType"
+  }, {
+    "@language" : "en",
+    "@value" : "property defines the type of document involved in the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Judgements"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasActs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "acts involved in the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasActs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Acts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasAdvisoryJurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "property justifies that the jurisdiction of the court is the advisory jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Apex_Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasAdvisoryJurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasAppellantJurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "property justifies that the jurisdiction of the court is the appellant jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Apex_Court"
+  }, {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#High_Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasAppellantJurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasAuthor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "case has a author who is one of the judge of the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasAuthor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasBench",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "case has a bench of judges"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasBench"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasCaseName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "name of the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasCaseName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasCaseNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "case number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasCaseNumber"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasCourtDecision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "property justifies the type of courts decision given by the judge in the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasCourtDecision"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasCourtDecisionDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "date on which the court decision is given"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasCourtDecisionDate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasCourts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "property defines the different courts involved in the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasCourts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasEvidenceLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "property represents the location of the evidence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Evidence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasEvidenceLocation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Place"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasEvidences",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "proprty represnts the evidences of the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasEvidences"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Evidence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasIndividual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represents that the group party of the case includes the individuals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Group"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasIndividuals"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Individual"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasJudgement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "judgement given on the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Judgement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasJudgement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasLegalParticipants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "property signifies the legal participants of the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasLegalParticipants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Legal_Participants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "property signifies the location of the court involved in the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasLocation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasNonLegalParticipants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "property signifies the non-legal participants of the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasNonLegalParticipants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "order given in the case as the court decision"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasOrder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasOriginalJurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "property justifies that the jurisdiction of the court is the original jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Apex_Court"
+  }, {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#High_Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasOriginalJurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasParticipantType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "property signifies the type of participants or parties of the case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasParticipantType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasPrecedentCase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "case has a relationship with the precedent cases"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasPrecedentCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Precedent_Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasReviewJurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "property justifies that the jurisdiction of the court is the review jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Apex_Court"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasReviewJurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasWritJurisdiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "property justifies that the jurisdiction of the court is the writ jurisdiction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasWritJurisdiction"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#individualName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "name of the individual or the party"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Individual"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "individualName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#isA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "precedent case isA case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Precedent_Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isA"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#locatedAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "location of the courts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "locatedAt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#organizationName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "name of the organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "organizationName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#stateName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "name of the State"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#State"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "stateName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+} ]

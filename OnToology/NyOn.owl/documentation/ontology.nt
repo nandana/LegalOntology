@@ -325,344 +325,526 @@
 <https://w3id.org/def/NyOnLegalOntology#Accussed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants> .
 <https://w3id.org/def/NyOnLegalOntology#Accussed> <http://www.w3.org/2000/01/rdf-schema#comment> "represents the accused of the case"@en .
 <https://w3id.org/def/NyOnLegalOntology#Accussed> <http://www.w3.org/2000/01/rdf-schema#label> "Accused"@en .
+<https://w3id.org/def/NyOnLegalOntology#Accussed> <http://www.w3.org/2000/01/rdf-schema#label> "Accusé"@fr .
+<https://w3id.org/def/NyOnLegalOntology#Accussed> <http://www.w3.org/2000/01/rdf-schema#label> "Acusado"@es .
+<https://w3id.org/def/NyOnLegalOntology#Accussed> <http://www.w3.org/2000/01/rdf-schema#label> "Beschuldigt"@de .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Acts
 <https://w3id.org/def/NyOnLegalOntology#Acts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Acts> <http://www.w3.org/2000/01/rdf-schema#comment> "Acts or Rules common for Civil and Crimnial Law"@en .
+<https://w3id.org/def/NyOnLegalOntology#Acts> <http://www.w3.org/2000/01/rdf-schema#label> "Actes"@fr .
 <https://w3id.org/def/NyOnLegalOntology#Acts> <http://www.w3.org/2000/01/rdf-schema#label> "Acts"@en .
+<https://w3id.org/def/NyOnLegalOntology#Acts> <http://www.w3.org/2000/01/rdf-schema#label> "Handlung"@de .
+<https://w3id.org/def/NyOnLegalOntology#Acts> <http://www.w3.org/2000/01/rdf-schema#label> "Hechos"@es .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction
 <https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Jurisdiction> .
 <https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "jurisdiction type is a advisory jurisdiction"@en .
 <https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Advisory Jurisdiction"@en .
+<https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Beratende Gerichtsbarkeit."@de .
+<https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Compétence consultative"@fr .
+<https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Jurisdicción de asesoramiento"@es .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Apex_Court
 <https://w3id.org/def/NyOnLegalOntology#Apex_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Apex_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts> .
+<https://w3id.org/def/NyOnLegalOntology#Apex_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Court"@de .
 <https://w3id.org/def/NyOnLegalOntology#Apex_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Apex Court"@en .
+<https://w3id.org/def/NyOnLegalOntology#Apex_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Corte del ápice"@es .
+<https://w3id.org/def/NyOnLegalOntology#Apex_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Tribunal d'apex"@fr .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Appeal
 <https://w3id.org/def/NyOnLegalOntology#Appeal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Appeal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Documents> .
 <https://w3id.org/def/NyOnLegalOntology#Appeal> <http://www.w3.org/2000/01/rdf-schema#comment> "document is an appeal document"@en .
+<https://w3id.org/def/NyOnLegalOntology#Appeal> <http://www.w3.org/2000/01/rdf-schema#label> "Apelación"@es .
 <https://w3id.org/def/NyOnLegalOntology#Appeal> <http://www.w3.org/2000/01/rdf-schema#label> "Appeal"@en .
+<https://w3id.org/def/NyOnLegalOntology#Appeal> <http://www.w3.org/2000/01/rdf-schema#label> "Appellieren"@de .
+<https://w3id.org/def/NyOnLegalOntology#Appeal> <http://www.w3.org/2000/01/rdf-schema#label> "Faire appel"@fr .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Appellant
 <https://w3id.org/def/NyOnLegalOntology#Appellant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Appellant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants> .
 <https://w3id.org/def/NyOnLegalOntology#Appellant> <http://www.w3.org/2000/01/rdf-schema#comment> "represents the appellant of the case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Appellant> <http://www.w3.org/2000/01/rdf-schema#label> "Apelante"@es .
+<https://w3id.org/def/NyOnLegalOntology#Appellant> <http://www.w3.org/2000/01/rdf-schema#label> "Appelant"@fr .
 <https://w3id.org/def/NyOnLegalOntology#Appellant> <http://www.w3.org/2000/01/rdf-schema#label> "Appellant"@en .
+<https://w3id.org/def/NyOnLegalOntology#Appellant> <http://www.w3.org/2000/01/rdf-schema#label> "Rechtsmittelführerin"@de .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction
 <https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Jurisdiction> .
 <https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "jurisdiction type is a appellant jurisdiction"@en .
 <https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Appellant Jurisdiction"@en .
+<https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Juridiction de l'appelant"@fr .
+<https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Jurisdicción del apelante"@es .
+<https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Rechtsmittelgerichtsbarkeit."@de .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Author
 <https://w3id.org/def/NyOnLegalOntology#Author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Author> <http://www.w3.org/2000/01/rdf-schema#comment> "Author (Judge) who is responsible for a creation of case document"@en .
+<https://w3id.org/def/NyOnLegalOntology#Author> <http://www.w3.org/2000/01/rdf-schema#label> "Auteur"@fr .
 <https://w3id.org/def/NyOnLegalOntology#Author> <http://www.w3.org/2000/01/rdf-schema#label> "Author"@en .
+<https://w3id.org/def/NyOnLegalOntology#Author> <http://www.w3.org/2000/01/rdf-schema#label> "Autor"@de .
+<https://w3id.org/def/NyOnLegalOntology#Author> <http://www.w3.org/2000/01/rdf-schema#label> "Autor"@es .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Bench
 <https://w3id.org/def/NyOnLegalOntology#Bench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Bench> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the bench of the case."@en .
+<https://w3id.org/def/NyOnLegalOntology#Bench> <http://www.w3.org/2000/01/rdf-schema#label> "Banc"@fr .
+<https://w3id.org/def/NyOnLegalOntology#Bench> <http://www.w3.org/2000/01/rdf-schema#label> "Bank"@de .
 <https://w3id.org/def/NyOnLegalOntology#Bench> <http://www.w3.org/2000/01/rdf-schema#label> "Bench"@en .
+<https://w3id.org/def/NyOnLegalOntology#Bench> <http://www.w3.org/2000/01/rdf-schema#label> "Mesa de trabajo"@es .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Case
 <https://w3id.org/def/NyOnLegalOntology#Case> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Case> <http://www.w3.org/2000/01/rdf-schema#comment> "a legal court case or court decision or case document"@en .
+<https://w3id.org/def/NyOnLegalOntology#Case> <http://www.w3.org/2000/01/rdf-schema#label> "Cas"@fr .
 <https://w3id.org/def/NyOnLegalOntology#Case> <http://www.w3.org/2000/01/rdf-schema#label> "Case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Case> <http://www.w3.org/2000/01/rdf-schema#label> "Caso"@es .
+<https://w3id.org/def/NyOnLegalOntology#Case> <http://www.w3.org/2000/01/rdf-schema#label> "Fall"@de .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Case_Type
 <https://w3id.org/def/NyOnLegalOntology#Case_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Case_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "defines the category of the case to which it belongs (Criminal or Civil according to Indian Judicial System)"@en .
 <https://w3id.org/def/NyOnLegalOntology#Case_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Case Type"@en .
+<https://w3id.org/def/NyOnLegalOntology#Case_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Fallart"@de .
+<https://w3id.org/def/NyOnLegalOntology#Case_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de caso"@es .
+<https://w3id.org/def/NyOnLegalOntology#Case_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Type de cas"@fr .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court
 <https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal> .
 <https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court> <http://www.w3.org/2000/01/rdf-schema#comment> "lower court at metropolitan level after Sessions Court for criminal cases"@en .
+<https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Chief Meterpolitan Court"@de .
 <https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Chief Meterpolitan Court"@en .
+<https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Court-compteur en chef"@fr .
+<https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Jefe Tribunal Metropolitana"@es .
 # 
 # https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts
 <https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil> .
 <https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts> <http://www.w3.org/2000/01/rdf-schema#comment> "lower court at metropolitan level after High Courts for civil cases"@en .
 <https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts> <http://www.w3.org/2000/01/rdf-schema#label> "City Civil Courts"@en .
+<https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts> <http://www.w3.org/2000/01/rdf-schema#label> "Courts civils de la ville"@fr .
+<https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts> <http://www.w3.org/2000/01/rdf-schema#label> "Stadtzivilgerichte"@de .
+<https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts> <http://www.w3.org/2000/01/rdf-schema#label> "Tribunales civiles de la ciudad"@es .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Civil
 <https://w3id.org/def/NyOnLegalOntology#Civil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Civil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Case_Type> .
 <https://w3id.org/def/NyOnLegalOntology#Civil> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/def/NyOnLegalOntology#Criminal> .
 <https://w3id.org/def/NyOnLegalOntology#Civil> <http://www.w3.org/2000/01/rdf-schema#comment> "case is a civil case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Civil> <http://www.w3.org/2000/01/rdf-schema#label> "Bürgerlich"@de .
 <https://w3id.org/def/NyOnLegalOntology#Civil> <http://www.w3.org/2000/01/rdf-schema#label> "Civil"@en .
+<https://w3id.org/def/NyOnLegalOntology#Civil> <http://www.w3.org/2000/01/rdf-schema#label> "Civil"@es .
+<https://w3id.org/def/NyOnLegalOntology#Civil> <http://www.w3.org/2000/01/rdf-schema#label> "Civil"@fr .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Country
 <https://w3id.org/def/NyOnLegalOntology#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Location> .
 <https://w3id.org/def/NyOnLegalOntology#Country> <http://www.w3.org/2000/01/rdf-schema#comment> "represents the country name"@en .
 <https://w3id.org/def/NyOnLegalOntology#Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+<https://w3id.org/def/NyOnLegalOntology#Country> <http://www.w3.org/2000/01/rdf-schema#label> "De campagne"@fr .
+<https://w3id.org/def/NyOnLegalOntology#Country> <http://www.w3.org/2000/01/rdf-schema#label> "Land"@de .
+<https://w3id.org/def/NyOnLegalOntology#Country> <http://www.w3.org/2000/01/rdf-schema#label> "País"@es .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Court_Decision
 <https://w3id.org/def/NyOnLegalOntology#Court_Decision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Court_Decision> <http://www.w3.org/2000/01/rdf-schema#label> "Court Decision"@en .
+<https://w3id.org/def/NyOnLegalOntology#Court_Decision> <http://www.w3.org/2000/01/rdf-schema#label> "Decision de la Corte"@es .
+<https://w3id.org/def/NyOnLegalOntology#Court_Decision> <http://www.w3.org/2000/01/rdf-schema#label> "Décision du tribunal"@fr .
+<https://w3id.org/def/NyOnLegalOntology#Court_Decision> <http://www.w3.org/2000/01/rdf-schema#label> "Gerichtsurteil"@de .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Court_Judgements
 <https://w3id.org/def/NyOnLegalOntology#Court_Judgements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Court_Judgements> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Documents> .
 <https://w3id.org/def/NyOnLegalOntology#Court_Judgements> <http://www.w3.org/2000/01/rdf-schema#comment> "document is a court judgement"@en .
 <https://w3id.org/def/NyOnLegalOntology#Court_Judgements> <http://www.w3.org/2000/01/rdf-schema#label> "Court Judgements"@en .
+<https://w3id.org/def/NyOnLegalOntology#Court_Judgements> <http://www.w3.org/2000/01/rdf-schema#label> "Gerichtsurteile"@de .
+<https://w3id.org/def/NyOnLegalOntology#Court_Judgements> <http://www.w3.org/2000/01/rdf-schema#label> "Jugements judiciaires"@fr .
+<https://w3id.org/def/NyOnLegalOntology#Court_Judgements> <http://www.w3.org/2000/01/rdf-schema#label> "Juicios judiciales"@es .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Courts
 <https://w3id.org/def/NyOnLegalOntology#Courts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Courts> <http://www.w3.org/2000/01/rdf-schema#label> "Courts"@en .
+<https://w3id.org/def/NyOnLegalOntology#Courts> <http://www.w3.org/2000/01/rdf-schema#label> "Gerichte"@de .
+<https://w3id.org/def/NyOnLegalOntology#Courts> <http://www.w3.org/2000/01/rdf-schema#label> "Tribunales"@es .
+<https://w3id.org/def/NyOnLegalOntology#Courts> <http://www.w3.org/2000/01/rdf-schema#label> "Tribunaux"@fr .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil
 <https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Case_Type> .
 <https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil> <http://www.w3.org/2000/01/rdf-schema#comment> "courts for civil cases"@en .
 <https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil> <http://www.w3.org/2000/01/rdf-schema#label> "Civil Courts"@en .
+<https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil> <http://www.w3.org/2000/01/rdf-schema#label> "Cours de petites causes"@fr .
+<https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil> <http://www.w3.org/2000/01/rdf-schema#label> "Gerichte kleinerer Ursachen"@de .
+<https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil> <http://www.w3.org/2000/01/rdf-schema#label> "Tribunales de causas más pequeñas"@es .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal
 <https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Case_Type> .
 <https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal> <http://www.w3.org/2000/01/rdf-schema#label> "Criminal Courts"@en .
-<https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal> <http://www.w3.org/2000/01/rdf-schema#label> "courts for crimnial cases"@en .
+<https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal> <http://www.w3.org/2000/01/rdf-schema#label> "Delincuente"@es .
+<https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal> <http://www.w3.org/2000/01/rdf-schema#label> "Kriminelle Gerichte"@de .
+<https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal> <http://www.w3.org/2000/01/rdf-schema#label> "Tribunaux criminels"@fr .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes
 <https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil> .
 <https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes> <http://www.w3.org/2000/01/rdf-schema#comment> "lowest court after City Civil Courts at metropolitan level for civil cases"@en .
+<https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes> <http://www.w3.org/2000/01/rdf-schema#label> "Courts of Smaller Causes"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Criminal
 <https://w3id.org/def/NyOnLegalOntology#Criminal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Criminal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Case_Type> .
 <https://w3id.org/def/NyOnLegalOntology#Criminal> <http://www.w3.org/2000/01/rdf-schema#comment> "case is a criminal case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Criminal> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Criminal> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Criminal> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Criminal> <http://www.w3.org/2000/01/rdf-schema#label> "Criminal"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#District
 <https://w3id.org/def/NyOnLegalOntology#District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#District> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Location> .
 <https://w3id.org/def/NyOnLegalOntology#District> <http://www.w3.org/2000/01/rdf-schema#comment> "represents district name/location"@en .
+<https://w3id.org/def/NyOnLegalOntology#District> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#District> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#District> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#District> <http://www.w3.org/2000/01/rdf-schema#label> "District"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#District_Court
 <https://w3id.org/def/NyOnLegalOntology#District_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#District_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil> .
 <https://w3id.org/def/NyOnLegalOntology#District_Court> <http://www.w3.org/2000/01/rdf-schema#comment> "lower court at district level after High Courts for civil cases"@en .
+<https://w3id.org/def/NyOnLegalOntology#District_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#District_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#District_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#District_Court> <http://www.w3.org/2000/01/rdf-schema#label> "District Court"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#District_Courts
 <https://w3id.org/def/NyOnLegalOntology#District_Courts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#District_Courts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts> .
+<https://w3id.org/def/NyOnLegalOntology#District_Courts> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#District_Courts> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#District_Courts> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#District_Courts> <http://www.w3.org/2000/01/rdf-schema#label> "District Courts"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Division_Bench
 <https://w3id.org/def/NyOnLegalOntology#Division_Bench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Division_Bench> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Bench> .
 <https://w3id.org/def/NyOnLegalOntology#Division_Bench> <http://www.w3.org/2000/01/rdf-schema#comment> "a term in judicial system in India in which a case is heard and judged by at least 2 judges"@en .
+<https://w3id.org/def/NyOnLegalOntology#Division_Bench> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Division_Bench> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Division_Bench> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Division_Bench> <http://www.w3.org/2000/01/rdf-schema#label> "Division Bench"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Documents
 <https://w3id.org/def/NyOnLegalOntology#Documents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Documents> <http://www.w3.org/2000/01/rdf-schema#comment> "various documents used in legal domain"@en .
+<https://w3id.org/def/NyOnLegalOntology#Documents> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Documents> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Documents> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Documents> <http://www.w3.org/2000/01/rdf-schema#label> "Documents"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Evidence
 <https://w3id.org/def/NyOnLegalOntology#Evidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Evidence> <http://www.w3.org/2000/01/rdf-schema#comment> "evidences presented in front of the court in the case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Evidence> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Evidence> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Evidence> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Evidence> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#FIR
 <https://w3id.org/def/NyOnLegalOntology#FIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#FIR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Documents> .
 <https://w3id.org/def/NyOnLegalOntology#FIR> <http://www.w3.org/2000/01/rdf-schema#comment> "document is a FIR"@en .
+<https://w3id.org/def/NyOnLegalOntology#FIR> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#FIR> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#FIR> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#FIR> <http://www.w3.org/2000/01/rdf-schema#label> "FIR"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Government
 <https://w3id.org/def/NyOnLegalOntology#Government> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Government> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Participants> .
 <https://w3id.org/def/NyOnLegalOntology#Government> <http://www.w3.org/2000/01/rdf-schema#comment> "participants involved (either on both sides or any one) is the government in the case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Government> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Government> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Government> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Government> <http://www.w3.org/2000/01/rdf-schema#label> "Government"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Group
 <https://w3id.org/def/NyOnLegalOntology#Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Participants> .
 <https://w3id.org/def/NyOnLegalOntology#Group> <http://www.w3.org/2000/01/rdf-schema#comment> "participants of the case are the group of people on one side against another group of people or individual or state"@en .
+<https://w3id.org/def/NyOnLegalOntology#Group> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Group> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Group> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Group> <http://www.w3.org/2000/01/rdf-schema#label> "Group"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#High_Court
 <https://w3id.org/def/NyOnLegalOntology#High_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#High_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts> .
+<https://w3id.org/def/NyOnLegalOntology#High_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#High_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#High_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#High_Court> <http://www.w3.org/2000/01/rdf-schema#label> "High Court"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Individual
 <https://w3id.org/def/NyOnLegalOntology#Individual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Individual> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Participants> .
 <https://w3id.org/def/NyOnLegalOntology#Individual> <http://www.w3.org/2000/01/rdf-schema#comment> "participants of the case are the individual persons"@en .
+<https://w3id.org/def/NyOnLegalOntology#Individual> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Individual> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Individual> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Individual> <http://www.w3.org/2000/01/rdf-schema#label> "Individual"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Investigator
 <https://w3id.org/def/NyOnLegalOntology#Investigator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Investigator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Legal_Participants> .
 <https://w3id.org/def/NyOnLegalOntology#Investigator> <http://www.w3.org/2000/01/rdf-schema#comment> "represents investigator who files the FIR or investigates a case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Investigator> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Investigator> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Investigator> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Investigator> <http://www.w3.org/2000/01/rdf-schema#label> "Investigator"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Judge
 <https://w3id.org/def/NyOnLegalOntology#Judge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Judge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Legal_Participants> .
 <https://w3id.org/def/NyOnLegalOntology#Judge> <http://www.w3.org/2000/01/rdf-schema#comment> "represents the judge of the case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Judge> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Judge> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Judge> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Judge> <http://www.w3.org/2000/01/rdf-schema#label> "Judge"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Judgement
 <https://w3id.org/def/NyOnLegalOntology#Judgement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Judgement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Court_Decision> .
 <https://w3id.org/def/NyOnLegalOntology#Judgement> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/def/NyOnLegalOntology#Order> .
+<https://w3id.org/def/NyOnLegalOntology#Judgement> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Judgement> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Judgement> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Judgement> <http://www.w3.org/2000/01/rdf-schema#label> "Judgement"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Jurisdiction
 <https://w3id.org/def/NyOnLegalOntology#Jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "the extent to which a court of law can exercise its authority over any cases filed across a region"@en .
+<https://w3id.org/def/NyOnLegalOntology#Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Jurisdiction"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Larger_Bench
 <https://w3id.org/def/NyOnLegalOntology#Larger_Bench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Larger_Bench> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Bench> .
 <https://w3id.org/def/NyOnLegalOntology#Larger_Bench> <http://www.w3.org/2000/01/rdf-schema#comment> "a term in judicial system in India in which a case is heard and judged by three or five judges"@en .
+<https://w3id.org/def/NyOnLegalOntology#Larger_Bench> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Larger_Bench> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Larger_Bench> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Larger_Bench> <http://www.w3.org/2000/01/rdf-schema#label> "Larger Bench"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Legal_Participants
 <https://w3id.org/def/NyOnLegalOntology#Legal_Participants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Legal_Participants> <http://www.w3.org/2000/01/rdf-schema#comment> "legal participants involved in a case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Legal_Participants> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Legal_Participants> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Legal_Participants> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Legal_Participants> <http://www.w3.org/2000/01/rdf-schema#label> "Legal Participants"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Location
 <https://w3id.org/def/NyOnLegalOntology#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Location> <http://www.w3.org/2000/01/rdf-schema#comment> "represents the location of the courts, etc and also used for evidence locations"@en .
+<https://w3id.org/def/NyOnLegalOntology#Location> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Location> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Location> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts
 <https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal> .
 <https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts> <http://www.w3.org/2000/01/rdf-schema#comment> "lowest court after Chief Metropolitan Court at metropolitan level for criminal cases"@en .
+<https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts> <http://www.w3.org/2000/01/rdf-schema#label> "Metropolitan Magistrate Courts"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Metropolitian_Courts
 <https://w3id.org/def/NyOnLegalOntology#Metropolitian_Courts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Metropolitian_Courts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts> .
+<https://w3id.org/def/NyOnLegalOntology#Metropolitian_Courts> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Metropolitian_Courts> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Metropolitian_Courts> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Metropolitian_Courts> <http://www.w3.org/2000/01/rdf-schema#label> "Metropolitan Court"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Munsif_Court
 <https://w3id.org/def/NyOnLegalOntology#Munsif_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Munsif_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil> .
 <https://w3id.org/def/NyOnLegalOntology#Munsif_Court> <http://www.w3.org/2000/01/rdf-schema#comment> "lowest court in heirarchy for civil ases at district level after Principal Junior Civil Court"@en .
+<https://w3id.org/def/NyOnLegalOntology#Munsif_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Munsif_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Munsif_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Munsif_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Munsif Court"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants
 <https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants> <http://www.w3.org/2000/01/rdf-schema#comment> "participants who does not belong to the legal domain or partities involved in the case"@en .
+<https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants> <http://www.w3.org/2000/01/rdf-schema#label> "Non-Legal Participants"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Order
 <https://w3id.org/def/NyOnLegalOntology#Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Court_Decision> .
+<https://w3id.org/def/NyOnLegalOntology#Order> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Order> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Order> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Order> <http://www.w3.org/2000/01/rdf-schema#label> "Order"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Organization
 <https://w3id.org/def/NyOnLegalOntology#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Participants> .
 <https://w3id.org/def/NyOnLegalOntology#Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "organization(s) involved as the participant in the case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Organization> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Organization> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Organization> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Organization"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction
 <https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Jurisdiction> .
 <https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "jurisdiction type is a original jurisdiction"@en .
+<https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Original Jurisdiction"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Others
 <https://w3id.org/def/NyOnLegalOntology#Others> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Others> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Documents> .
 <https://w3id.org/def/NyOnLegalOntology#Others> <http://www.w3.org/2000/01/rdf-schema#comment> "Other documents"@en .
+<https://w3id.org/def/NyOnLegalOntology#Others> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Others> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Others> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Others> <http://www.w3.org/2000/01/rdf-schema#label> "Others"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Participants
 <https://w3id.org/def/NyOnLegalOntology#Participants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Participants> <http://www.w3.org/2000/01/rdf-schema#comment> "represents the types of participants involved in the case as oppositions in the case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Participants> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Participants> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Participants> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Participants> <http://www.w3.org/2000/01/rdf-schema#label> "Participants"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Petition
 <https://w3id.org/def/NyOnLegalOntology#Petition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Petition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Documents> .
 <https://w3id.org/def/NyOnLegalOntology#Petition> <http://www.w3.org/2000/01/rdf-schema#comment> "document is a petition document"@en .
+<https://w3id.org/def/NyOnLegalOntology#Petition> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Petition> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Petition> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Petition> <http://www.w3.org/2000/01/rdf-schema#label> "Petition"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Petitioner
 <https://w3id.org/def/NyOnLegalOntology#Petitioner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Petitioner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants> .
 <https://w3id.org/def/NyOnLegalOntology#Petitioner> <http://www.w3.org/2000/01/rdf-schema#comment> "represnts the petitioner of the case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Petitioner> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Petitioner> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Petitioner> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Petitioner> <http://www.w3.org/2000/01/rdf-schema#label> "Petitioner"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Place
 <https://w3id.org/def/NyOnLegalOntology#Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Location> .
 <https://w3id.org/def/NyOnLegalOntology#Place> <http://www.w3.org/2000/01/rdf-schema#comment> "location name or place name"@en .
+<https://w3id.org/def/NyOnLegalOntology#Place> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Place> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Place> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Place> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Plaintiff
 <https://w3id.org/def/NyOnLegalOntology#Plaintiff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Plaintiff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants> .
 <https://w3id.org/def/NyOnLegalOntology#Plaintiff> <http://www.w3.org/2000/01/rdf-schema#comment> "represnts the plaintiff of the case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Plaintiff> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Plaintiff> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Plaintiff> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Plaintiff> <http://www.w3.org/2000/01/rdf-schema#label> "Plaintiff"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Precedent_Case
 <https://w3id.org/def/NyOnLegalOntology#Precedent_Case> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Precedent_Case> <http://www.w3.org/2000/01/rdf-schema#comment> "refers to the precedent cases of the cases"@en .
+<https://w3id.org/def/NyOnLegalOntology#Precedent_Case> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Precedent_Case> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Precedent_Case> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Precedent_Case> <http://www.w3.org/2000/01/rdf-schema#label> "Precedent Case"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court
 <https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil> .
 <https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court> <http://www.w3.org/2000/01/rdf-schema#comment> "third lower court in hierarchy at district level for civil cases"@en .
+<https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Principal Junior Civil Court"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Respondent
 <https://w3id.org/def/NyOnLegalOntology#Respondent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Respondent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants> .
 <https://w3id.org/def/NyOnLegalOntology#Respondent> <http://www.w3.org/2000/01/rdf-schema#comment> "represents the respondent of the case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Respondent> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Respondent> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Respondent> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Respondent> <http://www.w3.org/2000/01/rdf-schema#label> "Respondent"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction
 <https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Jurisdiction> .
 <https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "jurisdiction type is a review jurisdiction"@en .
+<https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Review Jurisdiction"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Session_Court
 <https://w3id.org/def/NyOnLegalOntology#Session_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Session_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal> .
 <https://w3id.org/def/NyOnLegalOntology#Session_Court> <http://www.w3.org/2000/01/rdf-schema#comment> "lower court at both distrcit and metropolitan level after High Courts specific for criminal cases"@en .
+<https://w3id.org/def/NyOnLegalOntology#Session_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Session_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Session_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Session_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Sessions Court"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Single_Judge
 <https://w3id.org/def/NyOnLegalOntology#Single_Judge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Single_Judge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Bench> .
 <https://w3id.org/def/NyOnLegalOntology#Single_Judge> <http://www.w3.org/2000/01/rdf-schema#comment> "a case heard and judged by a single judge"@en .
+<https://w3id.org/def/NyOnLegalOntology#Single_Judge> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Single_Judge> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Single_Judge> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Single_Judge> <http://www.w3.org/2000/01/rdf-schema#label> "Single Judge"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Solicitor
 <https://w3id.org/def/NyOnLegalOntology#Solicitor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Solicitor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Legal_Participants> .
 <https://w3id.org/def/NyOnLegalOntology#Solicitor> <http://www.w3.org/2000/01/rdf-schema#comment> "represents solicitor, learned counsel or laywer of the case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Solicitor> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Solicitor> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Solicitor> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Solicitor> <http://www.w3.org/2000/01/rdf-schema#label> "Solicitor"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Special_Bench
 <https://w3id.org/def/NyOnLegalOntology#Special_Bench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Special_Bench> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Bench> .
 <https://w3id.org/def/NyOnLegalOntology#Special_Bench> <http://www.w3.org/2000/01/rdf-schema#comment> "means the Bench constituted by or under the orders of the Chief Justice to hear a case or particular class of cases"@en .
+<https://w3id.org/def/NyOnLegalOntology#Special_Bench> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Special_Bench> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Special_Bench> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Special_Bench> <http://www.w3.org/2000/01/rdf-schema#label> "Special Bench"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#State
@@ -670,54 +852,81 @@
 <https://w3id.org/def/NyOnLegalOntology#State> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Location> .
 <https://w3id.org/def/NyOnLegalOntology#State> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Participants> .
 <https://w3id.org/def/NyOnLegalOntology#State> <http://www.w3.org/2000/01/rdf-schema#comment> "represents state name/location"@en .
+<https://w3id.org/def/NyOnLegalOntology#State> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#State> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#State> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#State> <http://www.w3.org/2000/01/rdf-schema#label> "State"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Sub_Court
 <https://w3id.org/def/NyOnLegalOntology#Sub_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Sub_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil> .
 <https://w3id.org/def/NyOnLegalOntology#Sub_Court> <http://www.w3.org/2000/01/rdf-schema#comment> "second lower court in hierarchy at District level for civil cases"@en .
+<https://w3id.org/def/NyOnLegalOntology#Sub_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Sub_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Sub_Court> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Sub_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Sub Court"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Taluka
 <https://w3id.org/def/NyOnLegalOntology#Taluka> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Taluka> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Location> .
 <https://w3id.org/def/NyOnLegalOntology#Taluka> <http://www.w3.org/2000/01/rdf-schema#comment> "represents taluka name/location"@en .
+<https://w3id.org/def/NyOnLegalOntology#Taluka> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Taluka> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Taluka> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Taluka> <http://www.w3.org/2000/01/rdf-schema#label> "Taluka"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Tribunal_Bench
 <https://w3id.org/def/NyOnLegalOntology#Tribunal_Bench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Tribunal_Bench> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Bench> .
 <https://w3id.org/def/NyOnLegalOntology#Tribunal_Bench> <http://www.w3.org/2000/01/rdf-schema#comment> "Bench deals with tribunals cases"@en .
+<https://w3id.org/def/NyOnLegalOntology#Tribunal_Bench> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Tribunal_Bench> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Tribunal_Bench> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Tribunal_Bench> <http://www.w3.org/2000/01/rdf-schema#label> "Tribunal Bench"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Tribunals
 <https://w3id.org/def/NyOnLegalOntology#Tribunals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Tribunals> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts> .
 <https://w3id.org/def/NyOnLegalOntology#Tribunals> <http://www.w3.org/2000/01/rdf-schema#comment> "institutions established for discharging judicial or quasi-judicial duties under the Government of India"@en .
+<https://w3id.org/def/NyOnLegalOntology#Tribunals> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Tribunals> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Tribunals> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Tribunals> <http://www.w3.org/2000/01/rdf-schema#label> "Tribunals"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Witness
 <https://w3id.org/def/NyOnLegalOntology#Witness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Witness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants> .
 <https://w3id.org/def/NyOnLegalOntology#Witness> <http://www.w3.org/2000/01/rdf-schema#comment> "witness involved/presented in the case"@en .
+<https://w3id.org/def/NyOnLegalOntology#Witness> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Witness> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Witness> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Witness> <http://www.w3.org/2000/01/rdf-schema#label> "Witness"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Writ_Jurisdiction
 <https://w3id.org/def/NyOnLegalOntology#Writ_Jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Writ_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Jurisdiction> .
 <https://w3id.org/def/NyOnLegalOntology#Writ_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "jurisdiction type is a writ jurisdiction"@en .
+<https://w3id.org/def/NyOnLegalOntology#Writ_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Writ_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Writ_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Writ_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Writ Jurisdiction"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)
 <https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal> .
 <https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)> <http://www.w3.org/2000/01/rdf-schema#comment> "second lower court at distrcit level after districit level Session Court for criminal cases"@en .
+<https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)> <http://www.w3.org/2000/01/rdf-schema#label> "Judicial Magistrate Court (First Class)"@en .
 # 
 # https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)
 <https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal> .
 <https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)> <http://www.w3.org/2000/01/rdf-schema#comment> "lowest court after Judicial Magistrate Court (First Class) at distrcit level for criminal cases"@en .
+<https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)> <http://www.w3.org/2000/01/rdf-schema#label> ""@de .
+<https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)> <http://www.w3.org/2000/01/rdf-schema#label> ""@es .
+<https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)> <http://www.w3.org/2000/01/rdf-schema#label> ""@fr .
 <https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)> <http://www.w3.org/2000/01/rdf-schema#label> "Judicial Magistrate Court (Second Class)"@en .
 # 
 # 
@@ -767,254 +976,254 @@
 # 
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
 _:genid1 <http://www.w3.org/2002/07/owl#members> _:genid7 .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Accussed> .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Appellant> .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Petitioner> .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Plaintiff> .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Respondent> .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Witness> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Witness> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Respondent> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Plaintiff> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Petitioner> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Appellant> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Accussed> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
 _:genid8 <http://www.w3.org/2002/07/owl#members> _:genid23 .
-_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Acts> .
 _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Author> .
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
-_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Bench> .
 _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
-_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Case> .
 _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
-_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Case_Type> .
 _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
-_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Court_Decision> .
 _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
-_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Courts> .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Documents> .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
-_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Evidence> .
 _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Jurisdiction> .
 _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Legal_Participants> .
 _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Location> .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
-_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants> .
 _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Participants> .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Precedent_Case> .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Precedent_Case> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Participants> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Location> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Legal_Participants> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Jurisdiction> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Evidence> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Documents> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Courts> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Court_Decision> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Case_Type> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Case> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Bench> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Author> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Acts> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
 _:genid24 <http://www.w3.org/2002/07/owl#members> _:genid28 .
-_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction> .
 _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
-_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction> .
 _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
-_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction> .
 _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
-_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction> .
 _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
 _:genid29 <http://www.w3.org/2002/07/owl#members> _:genid34 .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Appeal> .
 _:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Court_Judgements> .
 _:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
-_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#FIR> .
 _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
-_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Others> .
 _:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
-_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Petition> .
 _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Petition> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Others> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#FIR> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Court_Judgements> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Appeal> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
 _:genid35 <http://www.w3.org/2002/07/owl#members> _:genid40 .
-_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court> .
 _:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
-_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts> .
 _:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Session_Court> .
 _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)> .
 _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)> .
 _:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Session_Court> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
 _:genid41 <http://www.w3.org/2002/07/owl#members> _:genid47 .
-_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts> .
 _:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
-_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes> .
 _:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid45 .
-_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#District_Court> .
 _:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
-_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Munsif_Court> .
 _:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
-_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court> .
 _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
-_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Sub_Court> .
 _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Sub_Court> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Munsif_Court> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#District_Court> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
 _:genid48 <http://www.w3.org/2002/07/owl#members> _:genid53 .
-_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Country> .
 _:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
-_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#District> .
 _:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
-_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Place> .
 _:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
-_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#State> .
 _:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
-_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Taluka> .
 _:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Taluka> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#State> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Place> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#District> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Country> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
 _:genid54 <http://www.w3.org/2002/07/owl#members> _:genid59 .
-_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Government> .
 _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
-_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Group> .
 _:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
-_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Individual> .
 _:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
-_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Organization> .
 _:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
-_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#State> .
 _:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#State> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Organization> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Individual> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Group> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Government> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
 _:genid60 <http://www.w3.org/2002/07/owl#members> _:genid63 .
-_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Investigator> .
 _:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
-_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Judge> .
 _:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
-_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Solicitor> .
 _:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Solicitor> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Judge> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#Investigator> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
 _:genid64 <http://www.w3.org/2002/07/owl#members> _:genid84 .
-_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#caseBelongsToType> .
 _:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid83 .
-_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#documentType> .
 _:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid82 .
-_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasActs> .
 _:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid81 .
-_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasAdvisoryJurisdiction> .
 _:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid80 .
-_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasAppellantJurisdiction> .
 _:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid79 .
-_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasAuthor> .
 _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid78 .
-_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasBench> .
 _:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid77 .
-_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasCourtDecision> .
 _:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid76 .
-_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasCourts> .
 _:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
-_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasEvidenceLocation> .
 _:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid74 .
-_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasEvidences> .
 _:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
-_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasIndividual> .
 _:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid72 .
-_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasLegalParticipants> .
 _:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid71 .
-_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasLocation> .
 _:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
-_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasNonLegalParticipants> .
 _:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
-_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasOriginalJurisdiction> .
 _:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid68 .
-_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasParticipantType> .
 _:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
-_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasPrecedentCase> .
 _:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid66 .
-_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasReviewJurisdiction> .
 _:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
-_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#isA> .
 _:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#isA> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasReviewJurisdiction> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasPrecedentCase> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasParticipantType> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasOriginalJurisdiction> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasNonLegalParticipants> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasLocation> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasLegalParticipants> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasIndividual> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasEvidences> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasEvidenceLocation> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasCourts> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasCourtDecision> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasBench> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasAuthor> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasAppellantJurisdiction> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasAdvisoryJurisdiction> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#hasActs> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#documentType> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/NyOnLegalOntology#caseBelongsToType> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
-# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
