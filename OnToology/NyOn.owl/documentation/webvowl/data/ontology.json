@@ -28,12 +28,12 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Jain, Sarika",
+        "value" : "Mihindukulasooriya, Nandana",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Mihindukulasooriya, Nandana",
+        "value" : "Jain, Sarika",
         "type" : "label"
       }, {
         "identifier" : "creator",
@@ -84,13 +84,13 @@
         "type" : "label"
       }, {
         "identifier" : "title",
-        "language" : "es",
-        "value" : "NyOn: Una ontología jurídica multilingüe para el sistema judicial globalizado",
+        "language" : "fr",
+        "value" : "NyOn: Une ontologie juridique multilingue pour un système judiciaire mondialisé",
         "type" : "label"
       }, {
         "identifier" : "title",
-        "language" : "fr",
-        "value" : "NyOn: Une ontologie juridique multilingue pour un système judiciaire mondialisé",
+        "language" : "es",
+        "value" : "NyOn: Una ontología jurídica multilingüe para el sistema judicial globalizado",
         "type" : "label"
       }, {
         "identifier" : "title",
@@ -153,10 +153,10 @@
     "id" : "117",
     "type" : "owl:Class"
   }, {
-    "id" : "9",
+    "id" : "143",
     "type" : "owl:Class"
   }, {
-    "id" : "143",
+    "id" : "9",
     "type" : "owl:Class"
   }, {
     "id" : "144",
@@ -285,10 +285,10 @@
     "id" : "64",
     "type" : "owl:Class"
   }, {
-    "id" : "75",
+    "id" : "195",
     "type" : "owl:Class"
   }, {
-    "id" : "195",
+    "id" : "75",
     "type" : "owl:Class"
   }, {
     "id" : "4",
@@ -496,7 +496,7 @@
     "instances" : 0,
     "label" : {
       "IRI-based" : "Courts_for_Criminal",
-      "en" : "Criminal Courts"
+      "en" : "courts for crimnial cases"
     },
     "subClasses" : [ "38", "126", "127", "128", "129" ],
     "id" : "39",
@@ -564,19 +564,6 @@
     "id" : "117",
     "superClasses" : [ "2" ]
   }, {
-    "iri" : "https://w3id.org/def/NyOnLegalOntology#Petition",
-    "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Petition",
-      "en" : "Petition"
-    },
-    "comment" : {
-      "en" : "document is a petition document"
-    },
-    "id" : "9",
-    "superClasses" : [ "5" ]
-  }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Place",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
     "instances" : 0,
@@ -589,6 +576,19 @@
     },
     "id" : "143",
     "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://w3id.org/def/NyOnLegalOntology#Petition",
+    "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Petition",
+      "en" : "Petition"
+    },
+    "comment" : {
+      "en" : "document is a petition document"
+    },
+    "id" : "9",
+    "superClasses" : [ "5" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Apex_Court",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
@@ -1039,6 +1039,16 @@
     "id" : "64",
     "superClasses" : [ "12" ]
   }, {
+    "iri" : "https://w3id.org/def/NyOnLegalOntology#High_Court",
+    "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "High_Court",
+      "en" : "High Court"
+    },
+    "id" : "195",
+    "superClasses" : [ "33" ]
+  }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Solicitor",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
     "instances" : 0,
@@ -1051,16 +1061,6 @@
     },
     "id" : "75",
     "superClasses" : [ "1" ]
-  }, {
-    "iri" : "https://w3id.org/def/NyOnLegalOntology#High_Court",
-    "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "High_Court",
-      "en" : "High Court"
-    },
-    "id" : "195",
-    "superClasses" : [ "33" ]
   }, {
     "iri" : "https://w3id.org/def/NyOnLegalOntology#Court_Judgements",
     "baseIri" : "https://w3id.org/def/NyOnLegalOntology",
@@ -2251,7 +2251,7 @@
     "range" : "37",
     "label" : {
       "IRI-based" : "caseBelongsToType",
-      "en" : "caseBelongsToType"
+      "en" : "property justifies the relationship of the case with the particular domain to which it belongs"
     },
     "superproperty" : [ "27" ],
     "domain" : "26",
@@ -3784,7 +3784,7 @@
     "range" : "4",
     "label" : {
       "IRI-based" : "documentType",
-      "en" : "property defines the type of document involved in the case"
+      "en" : "documentType"
     },
     "superproperty" : [ "27" ],
     "domain" : "26",
