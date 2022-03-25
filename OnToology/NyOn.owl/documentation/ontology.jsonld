@@ -1,23 +1,51 @@
 [ {
   "@id" : "_:genid1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Accussed"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Appellant"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Petitioner"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Plaintiff"
-    }, {
       "@id" : "https://w3id.org/def/NyOnLegalOntology#Respondent"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Witness"
+      "@id" : "_:genid3"
     } ]
   } ]
 }, {
-  "@id" : "_:genid24",
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Acts"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Author"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Officials"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Evidence"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Precedent_Case"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid28",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -31,7 +59,16 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid29",
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#caseBelongsToType"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Criminal"
+  } ]
+}, {
+  "@id" : "_:genid33",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -47,7 +84,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid35",
+  "@id" : "_:genid39",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -63,7 +100,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid41",
+  "@id" : "_:genid45",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -81,7 +118,25 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid48",
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Accussed"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Appellant"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Petitioner"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Plaintiff"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Respondent"
+    }, {
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#Witness"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid52",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -97,7 +152,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid54",
+  "@id" : "_:genid58",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -113,7 +168,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid60",
+  "@id" : "_:genid64",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -125,7 +180,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid64",
+  "@id" : "_:genid68",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -167,43 +222,7 @@
     }, {
       "@id" : "https://w3id.org/def/NyOnLegalOntology#hasReviewJurisdiction"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#isA"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid8",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Acts"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Author"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Evidence"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Legal_Participants"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants"
-    }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Precedent_Case"
+      "@id" : "https://w3id.org/def/NyOnLegalOntology#isACase"
     } ]
   } ]
 }, {
@@ -297,6 +316,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represents the accused of the case"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामले के आरोपी का प्रतिनिधित्व करता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -310,9 +332,15 @@
   }, {
     "@language" : "de",
     "@value" : "Beschuldigt"
+  }, {
+    "@language" : "hi",
+    "@value" : "अभियुक्त"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Acts",
@@ -320,6 +348,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Acts or Rules common for Civil and Crimnial Law"
+  }, {
+    "@language" : "hi",
+    "@value" : "नागरिक और क्रूर कानून के लिए आम अधिनियम या नियम"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -333,6 +364,9 @@
   }, {
     "@language" : "es",
     "@value" : "Hechos"
+  }, {
+    "@language" : "hi",
+    "@value" : "अधिनियम"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction",
@@ -340,6 +374,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "jurisdiction type is a advisory jurisdiction"
+  }, {
+    "@language" : "hi",
+    "@value" : "क्षेत्राधिकार प्रकार एक सलाहकार क्षेत्राधिकार है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -353,6 +390,9 @@
   }, {
     "@language" : "es",
     "@value" : "Jurisdicción de asesoramiento"
+  }, {
+    "@language" : "hi",
+    "@value" : "सलाहकार क्षेत्राधिकार"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
@@ -360,6 +400,13 @@
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Apex_Court",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "highest court in the judicial system"
+  }, {
+    "@language" : "hi",
+    "@value" : "न्यायिक प्रणाली में सर्वोच्च न्यायालय"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
     "@value" : "Apex Court"
@@ -372,6 +419,9 @@
   }, {
     "@language" : "fr",
     "@value" : "Tribunal d'apex"
+  }, {
+    "@language" : "hi",
+    "@value" : "सर्वोच्च न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
@@ -382,6 +432,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "document is an appeal document"
+  }, {
+    "@language" : "hi",
+    "@value" : "दस्तावेज़ एक अपील दस्तावेज है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -395,6 +448,9 @@
   }, {
     "@language" : "fr",
     "@value" : "Faire appel"
+  }, {
+    "@language" : "hi",
+    "@value" : "निवेदन"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
@@ -405,6 +461,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represents the appellant of the case"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामले के अपीलकर्ता का प्रतिनिधित्व करता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -418,9 +477,12 @@
   }, {
     "@language" : "de",
     "@value" : "Rechtsmittelführerin"
+  }, {
+    "@language" : "hi",
+    "@value" : "अपील करनेवाला"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction",
@@ -428,6 +490,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "jurisdiction type is a appellant jurisdiction"
+  }, {
+    "@language" : "hi",
+    "@value" : "क्षेत्राधिकार प्रकार एक अपीलकारी क्षेत्राधिकार है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -441,6 +506,9 @@
   }, {
     "@language" : "de",
     "@value" : "Rechtsmittelgerichtsbarkeit."
+  }, {
+    "@language" : "hi",
+    "@value" : "अपीलकारी क्षेत्राधिकार"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
@@ -457,6 +525,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Author (Judge) who is responsible for a creation of case document"
+  }, {
+    "@language" : "hi",
+    "@value" : "लेखक (न्यायाधीश) जो मामले के दस्तावेज़ के निर्माण के लिए जिम्मेदार है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -470,6 +541,9 @@
   }, {
     "@language" : "es",
     "@value" : "Autor"
+  }, {
+    "@language" : "hi",
+    "@value" : "लेखक"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench",
@@ -477,6 +551,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Defines the bench of the case."
+  }, {
+    "@language" : "hi",
+    "@value" : "मामले की बेंच को परिभाषित करता है।"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -490,6 +567,9 @@
   }, {
     "@language" : "es",
     "@value" : "Mesa de trabajo"
+  }, {
+    "@language" : "hi",
+    "@value" : "बेंच"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Case",
@@ -497,6 +577,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "a legal court case or court decision or case document"
+  }, {
+    "@language" : "hi",
+    "@value" : "एक कानूनी न्यायालय केस या अदालत का निर्णय या केस दस्तावेज़"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "fr",
@@ -510,6 +593,9 @@
   }, {
     "@language" : "de",
     "@value" : "Fall"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामला"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type",
@@ -517,6 +603,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "defines the category of the case to which it belongs (Criminal or Civil according to Indian Judicial System)"
+  }, {
+    "@language" : "hi",
+    "@value" : "इस मामले की श्रेणी को परिभाषित करता है जिस पर यह संबंधित है (भारतीय न्यायिक प्रणाली के अनुसार आपराधिक या नागरिक)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -530,6 +619,9 @@
   }, {
     "@language" : "fr",
     "@value" : "Type de cas"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामले का प्रकार"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Causing_death_by_negligence",
@@ -543,6 +635,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "lower court at metropolitan level after Sessions Court for criminal cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "आपराधिक मामलों के लिए सत्र अदालत के बाद मेट्रोपॉलिटन स्तर पर निचली अदालत"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -556,6 +651,9 @@
   }, {
     "@language" : "es",
     "@value" : "Jefe Tribunal Metropolitana"
+  }, {
+    "@language" : "hi",
+    "@value" : "मुख्य मेटेरपोलिटन कोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
@@ -566,10 +664,13 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "lower court at metropolitan level after High Courts for civil cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "नागरिक मामलों के लिए उच्च न्यायालयों के बाद मेट्रोपॉलिटन स्तर पर निचली अदालत"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "City Civil Courts"
+    "@value" : "City Civil Court"
   }, {
     "@language" : "fr",
     "@value" : "Courts civils de la ville"
@@ -579,6 +680,9 @@
   }, {
     "@language" : "es",
     "@value" : "Tribunales civiles de la ciudad"
+  }, {
+    "@language" : "hi",
+    "@value" : "सिटी सिविल कोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
@@ -589,6 +693,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "case is a civil case"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामला एक नागरिक मामला है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -597,11 +704,11 @@
     "@language" : "en",
     "@value" : "Civil"
   }, {
-    "@language" : "es",
-    "@value" : "Civil"
-  }, {
     "@language" : "fr",
     "@value" : "Civil"
+  }, {
+    "@language" : "hi",
+    "@value" : "नागरिक"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
@@ -615,6 +722,9 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represents the country name"
+  }, {
+    "@language" : "hi",
+    "@value" : "देश के नाम का प्रतिनिधित्व करता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -628,6 +738,9 @@
   }, {
     "@language" : "es",
     "@value" : "País"
+  }, {
+    "@language" : "hi",
+    "@value" : "देश"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
@@ -635,6 +748,13 @@
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "final decision taken by the judge in the court case hearing"
+  }, {
+    "@language" : "hi",
+    "@value" : "अदालत के मामले में न्यायाधीश द्वारा किए गए अंतिम निर्णय"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Court Decision"
@@ -647,6 +767,9 @@
   }, {
     "@language" : "de",
     "@value" : "Gerichtsurteil"
+  }, {
+    "@language" : "hi",
+    "@value" : "अदालत का निर्णय"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Judgements",
@@ -654,58 +777,106 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "document is a court judgement"
+  }, {
+    "@language" : "hi",
+    "@value" : "दस्तावेज़ एक अदालत का निर्णय है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Court Judgements"
+    "@value" : "Court Judgement"
   }, {
     "@language" : "de",
-    "@value" : "Gerichtsurteile"
+    "@value" : "Gerichtsurteil"
   }, {
     "@language" : "fr",
-    "@value" : "Jugements judiciaires"
+    "@value" : "Jugement de la cour"
   }, {
     "@language" : "es",
-    "@value" : "Juicios judiciales"
+    "@value" : "Sentencia judicial"
+  }, {
+    "@language" : "hi",
+    "@value" : "न्यायालय निर्णय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts",
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Officials",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "legal system related people involved in a case"
+  }, {
+    "@language" : "hi",
+    "@value" : "एक मामले में अदालत के अधिकारी शामिल हैं"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Courts"
+    "@value" : "Court Official"
   }, {
     "@language" : "de",
-    "@value" : "Gerichte"
-  }, {
-    "@language" : "es",
-    "@value" : "Tribunales"
+    "@value" : "Gerichtsbeamter"
   }, {
     "@language" : "fr",
-    "@value" : "Tribunaux"
+    "@value" : "Officiel de la cour"
+  }, {
+    "@language" : "es",
+    "@value" : "Oficial de la corte"
+  }, {
+    "@language" : "hi",
+    "@value" : "न्यायालय अधिकारि"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "courts in the judicial system"
+  }, {
+    "@language" : "hi",
+    "@value" : "न्यायिक प्रणाली में अदालत"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Corte"
+  }, {
+    "@language" : "en",
+    "@value" : "Court"
+  }, {
+    "@language" : "de",
+    "@value" : "Gericht"
+  }, {
+    "@language" : "fr",
+    "@value" : "Rechercher"
+  }, {
+    "@language" : "hi",
+    "@value" : "अदालत"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "courts for civil cases"
+    "@value" : "court for civil cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "नागरिक मामलों के लिए न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Civil Courts"
-  }, {
-    "@language" : "fr",
-    "@value" : "Cours de petites causes"
-  }, {
-    "@language" : "de",
-    "@value" : "Gerichte kleinerer Ursachen"
+    "@value" : "Civil Court"
   }, {
     "@language" : "es",
-    "@value" : "Tribunales de causas más pequeñas"
+    "@value" : "Corte civil"
+  }, {
+    "@language" : "fr",
+    "@value" : "Cour civile"
+  }, {
+    "@language" : "de",
+    "@value" : "Zivilgericht"
+  }, {
+    "@language" : "hi",
+    "@value" : "नागरिक न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
@@ -713,18 +884,28 @@
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "courts for crimnial cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "कोर्ट प्रकार जहां केवल आपराधिक मामलों को सुना जाता है"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Corte Criminal"
+  }, {
+    "@language" : "fr",
+    "@value" : "Cour criminelle"
+  }, {
     "@language" : "en",
     "@value" : "Criminal Courts"
   }, {
-    "@language" : "es",
-    "@value" : "Delincuente"
-  }, {
     "@language" : "de",
-    "@value" : "Kriminelle Gerichte"
+    "@value" : "Strafgericht"
   }, {
-    "@language" : "fr",
-    "@value" : "Tribunaux criminels"
+    "@language" : "hi",
+    "@value" : "आपराधिक न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
@@ -735,19 +916,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "lowest court after City Civil Courts at metropolitan level for civil cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "सिविल मामलों के लिए मेट्रोपॉलिटन स्तर पर सिटी सिविल कोर्ट के बाद सबसे कम अदालत"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
     "@language" : "es",
-    "@value" : ""
+    "@value" : "Corte de causa más pequeña"
   }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Cour de petite cause"
   }, {
     "@language" : "en",
-    "@value" : "Courts of Smaller Causes"
+    "@value" : "Court of Smaller Cause"
+  }, {
+    "@language" : "de",
+    "@value" : "Gerichtsversorgung"
+  }, {
+    "@language" : "hi",
+    "@value" : "छोटे कारण के न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
@@ -758,19 +945,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "case is a criminal case"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामला एक आपराधिक मामला है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
-  }, {
     "@language" : "en",
     "@value" : "Criminal"
+  }, {
+    "@language" : "fr",
+    "@value" : "Criminel"
+  }, {
+    "@language" : "es",
+    "@value" : "Delincuente"
+  }, {
+    "@language" : "de",
+    "@value" : "Kriminell"
+  }, {
+    "@language" : "hi",
+    "@value" : "आपराधिक"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
@@ -784,19 +977,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represents district name/location"
+  }, {
+    "@language" : "hi",
+    "@value" : "जिला नाम / स्थान का प्रतिनिधित्व करता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Bezirk"
   }, {
     "@language" : "en",
     "@value" : "District"
+  }, {
+    "@language" : "es",
+    "@value" : "Distrito"
+  }, {
+    "@language" : "fr",
+    "@value" : "Quartier"
+  }, {
+    "@language" : "hi",
+    "@value" : "जिला"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
@@ -807,19 +1006,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "lower court at district level after High Courts for civil cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "नागरिक मामलों के लिए उच्च न्यायालयों के बाद जिला स्तर पर निचली अदालत"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Bezirksgericht"
   }, {
     "@language" : "en",
     "@value" : "District Court"
+  }, {
+    "@language" : "es",
+    "@value" : "Tribunal de Distrito"
+  }, {
+    "@language" : "fr",
+    "@value" : "Tribunal de district"
+  }, {
+    "@language" : "hi",
+    "@value" : "जिला अदालत"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
@@ -827,18 +1032,28 @@
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#District_Courts",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "a term in judicial system in India in which a case is heard and judged by at least 2 judges"
+  }, {
+    "@language" : "hi",
+    "@value" : "जिला स्तर पर अदालतें"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Bezirksgerichte"
   }, {
     "@language" : "en",
     "@value" : "District Courts"
+  }, {
+    "@language" : "es",
+    "@value" : "Tribunales de distrito"
+  }, {
+    "@language" : "fr",
+    "@value" : "Tribunaux de district"
+  }, {
+    "@language" : "hi",
+    "@value" : "जिला न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
@@ -849,19 +1064,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "a term in judicial system in India in which a case is heard and judged by at least 2 judges"
+  }, {
+    "@language" : "hi",
+    "@value" : "भारत में न्यायिक प्रणाली में एक शब्द जिसमें एक मामला कम से कम 2 न्यायाधीशों द्वारा सुना और न्याय किया जाता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
+    "@value" : "Abteilung Bench"
   }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Banc de division"
+  }, {
+    "@language" : "es",
+    "@value" : "Banco de división"
   }, {
     "@language" : "en",
     "@value" : "Division Bench"
+  }, {
+    "@language" : "hi",
+    "@value" : "डिवीजन बेंच"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
@@ -872,19 +1093,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "various documents used in legal domain"
+  }, {
+    "@language" : "hi",
+    "@value" : "कानूनी डोमेन में उपयोग किए जाने वाले विभिन्न दस्तावेज"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
+    "@language" : "en",
+    "@value" : "Document"
   }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Document"
   }, {
-    "@language" : "en",
-    "@value" : "Documents"
+    "@language" : "es",
+    "@value" : "Documento"
+  }, {
+    "@language" : "de",
+    "@value" : "Dokumentieren"
+  }, {
+    "@language" : "hi",
+    "@value" : "दस्तावेज़"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Evidence",
@@ -892,19 +1119,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "evidences presented in front of the court in the case"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामले में अदालत के सामने प्रस्तुत साक्ष्य"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Beweis"
   }, {
     "@language" : "en",
     "@value" : "Evidence"
+  }, {
+    "@language" : "es",
+    "@value" : "Evidencia"
+  }, {
+    "@language" : "fr",
+    "@value" : "Preuve"
+  }, {
+    "@language" : "hi",
+    "@value" : "सबूत"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#FIR",
@@ -912,19 +1145,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "document is a FIR"
+  }, {
+    "@language" : "hi",
+    "@value" : "दस्तावेज़ एक फ़िर है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
     "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "ABETO"
   }, {
     "@language" : "en",
     "@value" : "FIR"
+  }, {
+    "@language" : "fr",
+    "@value" : "SAPIN"
+  }, {
+    "@language" : "de",
+    "@value" : "TANNE"
+  }, {
+    "@language" : "hi",
+    "@value" : "प्राथमिकी"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
@@ -934,23 +1173,29 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "participants involved (either on both sides or any one) is the government in the case"
+    "@value" : "party involved (either on both sides or any one) is the government in the case"
+  }, {
+    "@language" : "hi",
+    "@value" : "प्रतिभागियों में शामिल (या तो दोनों तरफ या किसी एक पर) मामले में सरकार है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
     "@language" : "es",
-    "@value" : ""
+    "@value" : "Gobierno"
   }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Gouvernement"
   }, {
     "@language" : "en",
     "@value" : "Government"
+  }, {
+    "@language" : "de",
+    "@value" : "Regierung"
+  }, {
+    "@language" : "hi",
+    "@value" : "सरकार"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#GovernmentName",
@@ -980,39 +1225,55 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "participants of the case are the group of people on one side against another group of people or individual or state"
+    "@value" : "party of the case are the group of people on one side against another group of people or individual or state"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामले के प्रतिभागी लोगों या व्यक्तिगत या राज्य के किसी अन्य समूह के खिलाफ लोगों का समूह हैं"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
-  }, {
     "@language" : "en",
     "@value" : "Group"
+  }, {
+    "@language" : "fr",
+    "@value" : "Grouper"
+  }, {
+    "@language" : "es",
+    "@value" : "Grupo"
+  }, {
+    "@language" : "de",
+    "@value" : "Gruppe"
+  }, {
+    "@language" : "hi",
+    "@value" : "समूह"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#High_Court",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "court at the state level"
+  }, {
+    "@language" : "hi",
+    "@value" : "राज्य स्तर पर अदालतें"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Cour suprême"
+  }, {
+    "@language" : "de",
+    "@value" : "High Court"
   }, {
     "@language" : "en",
     "@value" : "High Court"
+  }, {
+    "@language" : "es",
+    "@value" : "Suprema Corte"
+  }, {
+    "@language" : "hi",
+    "@value" : "हाईकोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
@@ -1026,22 +1287,28 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "participants of the case are the individual persons"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामले के प्रतिभागी व्यक्तिगत व्यक्ति हैं"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
-  }, {
     "@language" : "en",
     "@value" : "Individual"
+  }, {
+    "@language" : "es",
+    "@value" : "Individual"
+  }, {
+    "@language" : "fr",
+    "@value" : "Individuel"
+  }, {
+    "@language" : "de",
+    "@value" : "Individuell"
+  }, {
+    "@language" : "hi",
+    "@value" : "व्यक्ति"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Investigator",
@@ -1049,22 +1316,28 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represents investigator who files the FIR or investigates a case"
+  }, {
+    "@language" : "hi",
+    "@value" : "जांचकर्ता का प्रतिनिधित्व करता है जो एफआईआर को फाइल करता है या एक मामले की जांच करता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "fr",
+    "@value" : "Enquêteur"
+  }, {
     "@language" : "de",
-    "@value" : ""
+    "@value" : "Ermittler"
   }, {
     "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Investigador"
   }, {
     "@language" : "en",
     "@value" : "Investigator"
+  }, {
+    "@language" : "hi",
+    "@value" : "अन्वेषक"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Legal_Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Officials"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Judge",
@@ -1072,38 +1345,54 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represents the judge of the case"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामले के न्यायाधीश का प्रतिनिधित्व करता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
-  }, {
     "@language" : "en",
     "@value" : "Judge"
+  }, {
+    "@language" : "es",
+    "@value" : "Juez"
+  }, {
+    "@language" : "fr",
+    "@value" : "Juge"
+  }, {
+    "@language" : "de",
+    "@value" : "Richter"
+  }, {
+    "@language" : "hi",
+    "@value" : "न्यायाधीश"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Legal_Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Officials"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Judgement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Judgement given by the judge "
+  }, {
+    "@language" : "hi",
+    "@value" : "जज द्वारा दिया गया निर्णय"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Beurteilung"
   }, {
     "@language" : "en",
     "@value" : "Judgement"
+  }, {
+    "@language" : "fr",
+    "@value" : "Jugement"
+  }, {
+    "@language" : "es",
+    "@value" : "Juicio"
+  }, {
+    "@language" : "hi",
+    "@value" : "निर्णय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision"
@@ -1117,19 +1406,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "second lower court at distrcit level after districit level Session Court for criminal cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "आपराधिक मामलों के लिए अतिरिक्त स्तर के सत्र अदालत के बाद डिस्ट्रिट स्तर पर दूसरी निचली अदालत"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
     "@language" : "es",
-    "@value" : ""
+    "@value" : "Corte judicial de magistrados (primera clase)"
   }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Cour magistrat judiciaire (première classe)"
+  }, {
+    "@language" : "de",
+    "@value" : "Gerichtsrichtergericht (erstklassig)"
   }, {
     "@language" : "en",
     "@value" : "Judicial Magistrate Court (First Class)"
+  }, {
+    "@language" : "hi",
+    "@value" : "न्यायिक मजिस्ट्रेट कोर्ट (प्रथम श्रेणी)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
@@ -1140,19 +1435,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "lowest court after Judicial Magistrate Court (First Class) at distrcit level for criminal cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "आपराधिक मामलों के लिए विचलित स्तर पर न्यायिक मजिस्ट्रेट कोर्ट (प्रथम श्रेणी) के बाद सबसे कम अदालत"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Cour magistrat judiciaire (deuxième classe)"
+  }, {
+    "@language" : "de",
+    "@value" : "Gerichtsrichtergericht (zweite Klasse)"
   }, {
     "@language" : "en",
     "@value" : "Judicial Magistrate Court (Second Class)"
+  }, {
+    "@language" : "es",
+    "@value" : "Tribunal de Magistrados Judiciales (Segunda Clase)"
+  }, {
+    "@language" : "hi",
+    "@value" : "न्यायिक मजिस्ट्रेट कोर्ट (द्वितीय श्रेणी)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
@@ -1163,19 +1464,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "the extent to which a court of law can exercise its authority over any cases filed across a region"
+  }, {
+    "@language" : "hi",
+    "@value" : "जिस हद तक कानून का न्यायालय किसी क्षेत्र में दायर किसी भी मामले पर अपने अधिकार का उपयोग कर सकता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
+    "@language" : "fr",
+    "@value" : "Juridiction"
   }, {
     "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Jurisdicción"
   }, {
     "@language" : "en",
     "@value" : "Jurisdiction"
+  }, {
+    "@language" : "de",
+    "@value" : "Zuständigkeit"
+  }, {
+    "@language" : "hi",
+    "@value" : "क्षेत्राधिकार"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Kidnapping_&_Abduction",
@@ -1186,42 +1493,28 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "a term in judicial system in India in which a case is heard and judged by three or five judges"
+  }, {
+    "@language" : "hi",
+    "@value" : "भारत में न्यायिक प्रणाली में एक शब्द जिसमें मामला तीन या पांच न्यायाधीशों द्वारा सुना और न्याय किया जाता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
+    "@language" : "fr",
+    "@value" : "Banc plus grand"
   }, {
     "@language" : "es",
-    "@value" : ""
+    "@value" : "Banco más grande"
   }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@language" : "de",
+    "@value" : "Größere Bank"
   }, {
     "@language" : "en",
     "@value" : "Larger Bench"
+  }, {
+    "@language" : "hi",
+    "@value" : "बड़ी बेंच"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Legal_Participants",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "legal participants involved in a case"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
-  }, {
-    "@language" : "en",
-    "@value" : "Legal Participants"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Location",
@@ -1229,19 +1522,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represents the location of the courts, etc and also used for evidence locations"
+  }, {
+    "@language" : "hi",
+    "@value" : "अदालतों के स्थान का प्रतिनिधित्व करता है, आदि और साक्ष्य स्थानों के लिए भी उपयोग किया जाता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Lieu"
   }, {
     "@language" : "en",
     "@value" : "Location"
+  }, {
+    "@language" : "de",
+    "@value" : "Standort"
+  }, {
+    "@language" : "es",
+    "@value" : "Ubicación"
+  }, {
+    "@language" : "hi",
+    "@value" : "स्थान"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts",
@@ -1249,19 +1548,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "lowest court after Chief Metropolitan Court at metropolitan level for criminal cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "आपराधिक मामलों के लिए मेट्रोपॉलिटन स्तर पर मुख्य मेट्रोपॉलिटन कोर्ट के बाद सबसे कम अदालत"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Cour magistrat métropolitain"
+  }, {
+    "@language" : "de",
+    "@value" : "Metropolitan Magistrat Court"
   }, {
     "@language" : "en",
-    "@value" : "Metropolitan Magistrate Courts"
+    "@value" : "Metropolitan Magistrate Court"
+  }, {
+    "@language" : "es",
+    "@value" : "Tribunal de magistrados metropolitanos"
+  }, {
+    "@language" : "hi",
+    "@value" : "मेट्रोपॉलिटन मजिस्ट्रेट कोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
@@ -1269,18 +1574,28 @@
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Metropolitian_Courts",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "hi",
+    "@value" : "10 लाख से अधिक शहर जनसंख्या के लिए न्यायालय"
   }, {
     "@language" : "en",
+    "@value" : "court for population more than 10 lakh city "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
     "@value" : "Metropolitan Court"
+  }, {
+    "@language" : "de",
+    "@value" : "Metropolitaner Gericht"
+  }, {
+    "@language" : "es",
+    "@value" : "Tribunal metropolitana"
+  }, {
+    "@language" : "fr",
+    "@value" : "Tribunal métropolitain"
+  }, {
+    "@language" : "hi",
+    "@value" : "मेट्रोपॉलिटन कोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
@@ -1291,19 +1606,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "lowest court in heirarchy for civil ases at district level after Principal Junior Civil Court"
+  }, {
+    "@language" : "hi",
+    "@value" : "प्रिंसिपल जूनियर सिविल कोर्ट के बाद जिले के स्तर पर नागरिक एएसईएस के लिए उत्तराधिकार में सबसे कम अदालत"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
     "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Cancha de munsif"
   }, {
     "@language" : "en",
     "@value" : "Munsif Court"
+  }, {
+    "@language" : "de",
+    "@value" : "Munsif-Gericht"
+  }, {
+    "@language" : "fr",
+    "@value" : "Tribunal de Munsid"
+  }, {
+    "@language" : "hi",
+    "@value" : "मुन्सिफ कोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
@@ -1312,40 +1633,30 @@
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Murder",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants",
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Order",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "participants who does not belong to the legal domain or partities involved in the case"
+    "@value" : "order given by the court"
+  }, {
+    "@language" : "hi",
+    "@value" : "अदालत द्वारा दिया गया आदेश"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
+    "@value" : "Befehl"
   }, {
     "@language" : "fr",
-    "@value" : ""
-  }, {
-    "@language" : "en",
-    "@value" : "Non-Legal Participants"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Order",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Commande"
   }, {
     "@language" : "en",
     "@value" : "Order"
+  }, {
+    "@language" : "es",
+    "@value" : "Pedido"
+  }, {
+    "@language" : "hi",
+    "@value" : "आदेश"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision"
@@ -1356,22 +1667,28 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "organization(s) involved as the participant in the case"
+  }, {
+    "@language" : "hi",
+    "@value" : "संगठन (ओं) मामले में प्रतिभागी के रूप में शामिल है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
+    "@value" : "Organisation"
   }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Organisation"
+  }, {
+    "@language" : "es",
+    "@value" : "Organización"
   }, {
     "@language" : "en",
     "@value" : "Organization"
+  }, {
+    "@language" : "hi",
+    "@value" : "संगठन"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction",
@@ -1379,19 +1696,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "jurisdiction type is a original jurisdiction"
+  }, {
+    "@language" : "hi",
+    "@value" : "क्षेत्राधिकार प्रकार एक मूल क्षेत्राधिकार है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
+    "@value" : "Erstinstanzliche Zuständigkeit"
   }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Juridiction originale"
+  }, {
+    "@language" : "es",
+    "@value" : "Jurisdicción original"
   }, {
     "@language" : "en",
     "@value" : "Original Jurisdiction"
+  }, {
+    "@language" : "hi",
+    "@value" : "मूल न्यायाधिकार"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
@@ -1402,42 +1725,80 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Other documents"
+  }, {
+    "@language" : "hi",
+    "@value" : "अन्य कागजात"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
+    "@value" : "Andere"
   }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Les autres"
   }, {
     "@language" : "en",
     "@value" : "Others"
+  }, {
+    "@language" : "es",
+    "@value" : "Otros"
+  }, {
+    "@language" : "hi",
+    "@value" : "अन्य"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants",
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "represents the types of participants involved in the case as oppositions in the case"
+    "@value" : "parties or people involved in the case"
+  }, {
+    "@language" : "hi",
+    "@value" : "ऐसे पक्ष जो मामले में शामिल कानूनी डोमेन या भागों से संबंधित नहीं हैं"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
+    "@language" : "fr",
+    "@value" : "Des soirées"
   }, {
     "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Fiestas"
   }, {
     "@language" : "en",
-    "@value" : "Participants"
+    "@value" : "Parties"
+  }, {
+    "@language" : "de",
+    "@value" : "Partys"
+  }, {
+    "@language" : "hi",
+    "@value" : "दलों"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "represents the types of party involved in the case viz. individual, organization, govt. etc."
+  }, {
+    "@language" : "hi",
+    "@value" : "मामले में शामिल पार्टी प्रकार"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Party Type"
+  }, {
+    "@language" : "de",
+    "@value" : "Partytyp."
+  }, {
+    "@language" : "es",
+    "@value" : "Tipo de fiesta"
+  }, {
+    "@language" : "fr",
+    "@value" : "Type de fête"
+  }, {
+    "@language" : "hi",
+    "@value" : "पार्टी प्रकार"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Petition",
@@ -1445,19 +1806,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "document is a petition document"
+  }, {
+    "@language" : "hi",
+    "@value" : "दस्तावेज़ एक याचिका दस्तावेज है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
     "@language" : "es",
-    "@value" : ""
+    "@value" : "Petición"
   }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@language" : "de",
+    "@value" : "Petition"
   }, {
     "@language" : "en",
     "@value" : "Petition"
+  }, {
+    "@language" : "fr",
+    "@value" : "Pétition"
+  }, {
+    "@language" : "hi",
+    "@value" : "याचिका"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
@@ -1468,22 +1835,28 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represnts the petitioner of the case"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामले के याचिकाकर्ता को दर्शाता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
+    "@value" : "Antragsteller"
   }, {
     "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Peticionario"
   }, {
     "@language" : "en",
     "@value" : "Petitioner"
+  }, {
+    "@language" : "fr",
+    "@value" : "Pétitionnaire"
+  }, {
+    "@language" : "hi",
+    "@value" : "याचिकाकर्ता"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Place",
@@ -1491,19 +1864,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "location name or place name"
+  }, {
+    "@language" : "hi",
+    "@value" : "स्थान का नाम या स्थान का नाम"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
+    "@language" : "fr",
+    "@value" : "Lieu"
   }, {
     "@language" : "es",
-    "@value" : ""
+    "@value" : "Lugar"
   }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@language" : "de",
+    "@value" : "Ort"
   }, {
     "@language" : "en",
     "@value" : "Place"
+  }, {
+    "@language" : "hi",
+    "@value" : "स्थान"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
@@ -1514,22 +1893,28 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represnts the plaintiff of the case"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामले की वादी को दर्शाता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
     "@language" : "es",
-    "@value" : ""
+    "@value" : "Demandante"
   }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Demandeur"
+  }, {
+    "@language" : "de",
+    "@value" : "Kläger"
   }, {
     "@language" : "en",
     "@value" : "Plaintiff"
+  }, {
+    "@language" : "hi",
+    "@value" : "वादी"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Precedent_Case",
@@ -1537,19 +1922,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "refers to the precedent cases of the cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामलों के उदाहरण के मामलों को संदर्भित करता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
+    "@language" : "fr",
+    "@value" : "Cas de précédent"
   }, {
     "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Caso precedente"
   }, {
     "@language" : "en",
     "@value" : "Precedent Case"
+  }, {
+    "@language" : "de",
+    "@value" : "Präzedenzfall Fall."
+  }, {
+    "@language" : "hi",
+    "@value" : "पूर्ववर्ती मामला"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court",
@@ -1557,19 +1948,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "third lower court in hierarchy at district level for civil cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "नागरिक मामलों के लिए जिला स्तर पर पदानुक्रम में तीसरी निचली अदालत"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
     "@language" : "es",
-    "@value" : ""
+    "@value" : "Director de la Corte Civil Junior"
   }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Principal Cour civil junior"
+  }, {
+    "@language" : "de",
+    "@value" : "Principal Junior Civil Court"
   }, {
     "@language" : "en",
     "@value" : "Principal Junior Civil Court"
+  }, {
+    "@language" : "hi",
+    "@value" : "प्रिंसिपल जूनियर सिविल कोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
@@ -1580,22 +1977,28 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represents the respondent of the case"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामले के प्रतिवादी का प्रतिनिधित्व करता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
+    "@value" : "Befragte"
   }, {
     "@language" : "es",
-    "@value" : ""
+    "@value" : "Demandado"
   }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Intimé"
   }, {
     "@language" : "en",
     "@value" : "Respondent"
+  }, {
+    "@language" : "hi",
+    "@value" : "प्रतिवादी"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction",
@@ -1603,19 +2006,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "jurisdiction type is a review jurisdiction"
+  }, {
+    "@language" : "hi",
+    "@value" : "क्षेत्राधिकार प्रकार एक समीक्षा क्षेत्राधिकार है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Examiner la juridiction"
   }, {
     "@language" : "en",
     "@value" : "Review Jurisdiction"
+  }, {
+    "@language" : "es",
+    "@value" : "Revisar jurisdicción"
+  }, {
+    "@language" : "de",
+    "@value" : "Überprüfung Gerichtsstand."
+  }, {
+    "@language" : "hi",
+    "@value" : "समीक्षा क्षेत्राधिकार"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
@@ -1626,19 +2035,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "lower court at both distrcit and metropolitan level after High Courts specific for criminal cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "आपराधिक मामलों के लिए विशिष्ट उच्च न्यायालयों के बाद दोनों विचलित और मेट्रोपॉलिटन स्तर पर ओवर कोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
-  }, {
     "@language" : "en",
     "@value" : "Sessions Court"
+  }, {
+    "@language" : "de",
+    "@value" : "Sessions Court."
+  }, {
+    "@language" : "fr",
+    "@value" : "Sessions cour"
+  }, {
+    "@language" : "es",
+    "@value" : "Tribunal de sesiones"
+  }, {
+    "@language" : "hi",
+    "@value" : "सत्र न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
@@ -1649,19 +2064,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "a case heard and judged by a single judge"
+  }, {
+    "@language" : "hi",
+    "@value" : "एक मामले ने एक ही न्यायाधीश द्वारा सुना और न्याय किया"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
+    "@value" : "Einzelner Richter"
   }, {
     "@language" : "es",
-    "@value" : ""
+    "@value" : "Juez"
   }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Juge unique"
   }, {
     "@language" : "en",
     "@value" : "Single Judge"
+  }, {
+    "@language" : "hi",
+    "@value" : "एकल न्यायाधीश"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
@@ -1672,22 +2093,28 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represents solicitor, learned counsel or laywer of the case"
+  }, {
+    "@language" : "hi",
+    "@value" : "सॉलिसिटर का प्रतिनिधित्व करता है, सीखा वकील या मामले की घंटू"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
     "@language" : "es",
-    "@value" : ""
+    "@value" : "Abogado"
   }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@language" : "de",
+    "@value" : "Rechtsanwalt"
   }, {
     "@language" : "en",
     "@value" : "Solicitor"
+  }, {
+    "@language" : "fr",
+    "@value" : "Solliciteur"
+  }, {
+    "@language" : "hi",
+    "@value" : "वकील"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Legal_Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Officials"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Special_Bench",
@@ -1695,19 +2122,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "means the Bench constituted by or under the orders of the Chief Justice to hear a case or particular class of cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "मामला या विशेष वर्ग के मामलों को सुनने के लिए मुख्य न्यायाधीश के आदेशों के तहत गठित खंडपीठ का मतलब है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
+    "@language" : "fr",
+    "@value" : "Banc spécial"
   }, {
     "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Banco especial"
   }, {
     "@language" : "en",
     "@value" : "Special Bench"
+  }, {
+    "@language" : "de",
+    "@value" : "Spezielle Bank"
+  }, {
+    "@language" : "hi",
+    "@value" : "विशेष बेंच"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
@@ -1718,24 +2151,30 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represents state name/location"
+  }, {
+    "@language" : "hi",
+    "@value" : "राज्य का नाम / स्थान का प्रतिनिधित्व करता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
+    "@value" : "Bundesland"
   }, {
     "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Estado"
   }, {
     "@language" : "en",
     "@value" : "State"
+  }, {
+    "@language" : "fr",
+    "@value" : "État"
+  }, {
+    "@language" : "hi",
+    "@value" : "राज्य"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
   }, {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Sub_Court",
@@ -1743,19 +2182,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "second lower court in hierarchy at District level for civil cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "नागरिक मामलों के लिए जिला स्तर पर पदानुक्रम में दूसरी निचली अदालत"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
-  }, {
     "@language" : "en",
     "@value" : "Sub Court"
+  }, {
+    "@language" : "es",
+    "@value" : "Subd courra"
+  }, {
+    "@language" : "de",
+    "@value" : "Subgericht"
+  }, {
+    "@language" : "fr",
+    "@value" : "Tribunal"
+  }, {
+    "@language" : "hi",
+    "@value" : "उप न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
@@ -1766,19 +2211,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represents taluka name/location"
+  }, {
+    "@language" : "hi",
+    "@value" : "तालुका नाम / स्थान का प्रतिनिधित्व करता है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Talon"
+  }, {
+    "@language" : "de",
+    "@value" : "Taluka"
   }, {
     "@language" : "en",
     "@value" : "Taluka"
+  }, {
+    "@language" : "es",
+    "@value" : "Taluka"
+  }, {
+    "@language" : "hi",
+    "@value" : "तालुका"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
@@ -1789,19 +2240,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Bench deals with tribunals cases"
+  }, {
+    "@language" : "hi",
+    "@value" : "ट्रिब्यूनल मामलों के साथ बेंच सौदों"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
+    "@language" : "fr",
+    "@value" : "Banc de tribunal"
   }, {
     "@language" : "es",
-    "@value" : ""
+    "@value" : "Banco Tribunal"
   }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@language" : "de",
+    "@value" : "Tribunal Bank."
   }, {
     "@language" : "en",
     "@value" : "Tribunal Bench"
+  }, {
+    "@language" : "hi",
+    "@value" : "ट्रिब्यूनल बेंच"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
@@ -1812,19 +2269,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "institutions established for discharging judicial or quasi-judicial duties under the Government of India"
+  }, {
+    "@language" : "hi",
+    "@value" : "भारत सरकार के तहत न्यायिक या अर्ध न्यायिक कर्तव्यों को निर्वहन के लिए स्थापित संस्थान"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : ""
-  }, {
-    "@language" : "es",
-    "@value" : ""
-  }, {
-    "@language" : "fr",
-    "@value" : ""
+    "@value" : "Gericht"
   }, {
     "@language" : "en",
-    "@value" : "Tribunals"
+    "@value" : "Tribunal"
+  }, {
+    "@language" : "es",
+    "@value" : "Tribunal"
+  }, {
+    "@language" : "fr",
+    "@value" : "Tribunal"
+  }, {
+    "@language" : "hi",
+    "@value" : "न्यायाधिकरण"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
@@ -1835,22 +2298,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "witness involved/presented in the case"
+  }, {
+    "@language" : "hi",
+    "@value" : "साक्षी ने मामले में शामिल / प्रस्तुत किया"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
     "@language" : "es",
-    "@value" : ""
+    "@value" : "Testigo"
   }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Témoin"
   }, {
     "@language" : "en",
     "@value" : "Witness"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+  }, {
+    "@language" : "de",
+    "@value" : "Zeuge"
+  }, {
+    "@language" : "hi",
+    "@value" : "साक्षी"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#Writ_Jurisdiction",
@@ -1858,19 +2324,25 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "jurisdiction type is a writ jurisdiction"
+  }, {
+    "@language" : "hi",
+    "@value" : "क्षेत्राधिकार प्रकार एक रिट क्षेत्राधिकार है"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : ""
-  }, {
     "@language" : "es",
-    "@value" : ""
+    "@value" : "Escrito jurisdicción"
+  }, {
+    "@language" : "de",
+    "@value" : "Geschriebene Gerichtsbarkeit."
   }, {
     "@language" : "fr",
-    "@value" : ""
+    "@value" : "Juridiction écrite"
   }, {
     "@language" : "en",
     "@value" : "Writ Jurisdiction"
+  }, {
+    "@language" : "hi",
+    "@value" : "रिट क्षेत्राधिकार"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
@@ -2201,7 +2673,7 @@
     "@value" : "hasLegalParticipants"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Legal_Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Officials"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
@@ -2238,7 +2710,7 @@
     "@value" : "hasNonLegalParticipants"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
@@ -2293,14 +2765,14 @@
     "@value" : "property signifies the type of participants or parties of the case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasParticipantType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Participants"
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type"
   } ]
 }, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#hasPrecedentCase",
@@ -2343,6 +2815,15 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasWitness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Witness"
+  } ]
+}, {
   "@id" : "https://w3id.org/def/NyOnLegalOntology#hasWritJurisdiction",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -2374,7 +2855,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#isA",
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#isACase",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2385,7 +2866,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isA"
+    "@value" : "isACase"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
@@ -2443,6 +2924,15 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "stateName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/NyOnLegalOntology#witnessName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/def/NyOnLegalOntology#Witness"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
